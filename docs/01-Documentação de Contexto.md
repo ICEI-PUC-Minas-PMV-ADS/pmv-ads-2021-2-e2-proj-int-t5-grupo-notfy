@@ -17,27 +17,15 @@ O objetivo geral do projeto é o desenvolvimento de uma aplicação interativa p
 
 Objetivos específicos • Elaborar rotas funcionais que possibilitem que o notificador opte pelos trajetos mais curtos ou mais rápidos, o que poderia gerar uma economia de tempo e de recursos financeiros. • Criar um banco de dados que, através do tempo, possa armazenar informações de intimações cuja relevância interfiram na elaboração das rotas. • Gerar check-in em cada visita, como forma de aumentar a confiabilidade do processo. • Gerar certidão no ato de conclusão da diligência, o que diminuiria o tempo de trabalho do notificador, além de tornar mais célere a devolução dos documentos para o tomador de serviço.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O projeto Notfy pretende controlar e melhorar as etapas de execução do processo de notificação extrajudicial cartorária no ramo imobiliário, gerando maior celeridade e segurança além de um custo mais baixo na realização das intimações. Geralmente o notificador recebe um volume de notificações, com vários endereços distintos e pode realizar até três tentativas de encontrar o devedor, para informá-lo sobre as implicações e consequências contidas no documento. A partir do resultado da diligência, ele ainda deve confeccionar uma certidão para cada intimação concluída, independente do seu resultado. O seu trabalho, então, engloba a escolha das melhores rotas, a definição seu horário de trabalho (lembrando que deve realizar cada uma das três tentativas em horários e dias diferentes) e, após o cumprimento das diligências, certificar cada intimação que recebera. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O Notfy contribuirá significativamente para as escolhas dos melhores caminhos, traçando as rotas mais curtas, ou mais rápidas, para a realização das diligências, o que resultará num ganho de tempo e numa economia financeira, uma vez que o combustível é uma despesa direta dos processos de intimação. Por outro lado, o sistema de check-in aumentará a segurança do processo, pois é uma prova inconteste de que o notificador esteve naquele local, em determinada data e horário. Ainda, pode gerar a certidão no momento em que uma diligência é encerrada, o que diminuiria consideravelmente o tempo de trabalho do mesmo, já que não precisaria redigir cada uma ao fim das diligências. Para o cartório contratante, representaria uma diminuição dos custos de intimação e um maior controle da produtividade de seus funcionários notificadores. Aumentaria a segurança do seu procedimento gerando documentação que corrobora a certificação gerada pelo Cartório, ainda que respaldado pela fé pública e tornando o processo ainda mais confiável. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Para o mutuário a quem se destina a notificação, o Notfy aumentaria suas chances de ser encontrado, pois seu banco de dados dará relevância para a experiência gerada em diligências anteriores, como, por exemplo, horário e local onde o notificado fora encontrado noutra ocasião. As notificações cartorárias imobiliárias extrajudiciais são, de certa forma, a última chance do mutuário de negociar sua dívida antes de ter seu imóvel consolidado em favor do credor. Por isso a importância de um procedimento assertivo e confiável para que a informação chegue ao seu destino. Assim o programa cumpre com a sua função social, que é de assegurar ao devedor, que ele tenha a chance de negociar seu imóvel e evitar sua perda.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo do projeto Notfy é composto por Notificadores e Notários registradores de Cartórios de Registro de Imóveis. A faixa etária predominante é de pessoas com idade entre 30 e 40 anos, com vários níveis de escolaridade, familiarizadas com aplicativos e mídias sociais.
