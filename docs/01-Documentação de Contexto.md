@@ -1,6 +1,11 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto Notfy visa otimizar o processo de notificações extrajudiciais cartorárias, a princípio, no setor imobiliário. Uma notificação extrajucial é um ato praticado como forma de dar conhecimento de uma informação ao notificado. A notificação é uma espécie de carta escrita, onde constam os fatos que a motivaram, a relação jurídica em questão e o prazo para seu cumprimento (que pode ou não ser previsto em lei).
+
+As notificações podem ser utilizadas para tentar resolver um conflito de forma amigável, antes que ele chegue ao poder judiciário. Desde o ano de 1997, com a criação da lei 9.514, a alienação fiduciária passou a substituir a hipoteca como forma de estimular a oferta de crédito imobiliário, pois representa um menor custo e maior celeridade no processo. Nessa relação, o imóvel fica alienado em favor do credor até que o devedor quite com todas as prestações constantes em contrato. Quando o mesmo se torna inadimplente, o credor poderá requerer a consolidação da propriedade, em juízo, para saldar a dívida. Nesse caso, o credor deverá providenciar a intimação o devedor, por meio do cartório de registro de imóveis na localidade do imóvel, sendo concedido ao notificado o prazo de 15 dias para o pagamento das parcelas atrasadas. Não havendo o pagamento, o credor fiduciário pode requer a consolidação da propriedade em seu nome. 
+
+As notificações realizar-se-ão conforme parâmetros estabelecidos em lei, como a obrigatoriedade de tentar localizar o devedor em três tentativas, em dias e horários distintos, não exceder o horário de 18 horas para a realização das mesmas, respeitar domingos e feriados, etc. Além disso, como se trata de um documento de cobrança que estipula um prazo de quitação, o não cumprimento da obrigação pode resultar na perda do imóvel em questão. Torna-se imprescindível uma conduta que se esforce, ao máximo, dar ciência ao notificado do conteúdo do documento e suas consequências. Todas as partes podem se beneficiar de um sistema que atue de forma inteligente para solucionar questões logísticas, de segurança e de tempo de execução que podem resultar num trabalho mais eficaz e seguro para todos os envolvidos.
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
