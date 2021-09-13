@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# Notfy
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 05`
 
-`SEMESTRE`
+`2º Semestre 2021/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Notfy - é uma aplicação voltada para a otimização do processo de notificações extrajudiciais cartorárias. O projeto contribuirá para elaboração das melhores rotas, permitirá o monitoramento do trabalho e a documentação das suas etapas. Será possível reduzir os custos de intimação, o tempo para a entrega do serviço, além de aumentar a segurança de todo o processo.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+- Flávio Duarte Carvalho 
+- Janaina Jamarino Rosa
+- Leandro David Metzker 
+- Luiza Jamarino Rosa Grigório
+- Platiní Gomes da Rocha
+- Priscilha Sansão Alves
 
 ## Orientador
 
-* Nome completo do professor 1
+- Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
