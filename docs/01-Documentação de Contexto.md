@@ -8,22 +8,14 @@ As notificações realizar-se-ão conforme parâmetros estabelecidos em lei, com
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como tornar o processo de notificações extrajudiciais cartorárias mais ágil, mais barato e mais confiável.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do projeto é o desenvolvimento de uma aplicação interativa para otimizar todo o processo de notificação extrajudicial cartorária, através de aplicações de sistema de informação que auxiliem o notificador a desempenhar de forma mais ágil e segura o seu trabalho.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Objetivos específicos • Elaborar rotas funcionais que possibilitem que o notificador opte pelos trajetos mais curtos ou mais rápidos, o que poderia gerar uma economia de tempo e de recursos financeiros. • Criar um banco de dados que, através do tempo, possa armazenar informações de intimações cuja relevância interfiram na elaboração das rotas. • Gerar check-in em cada visita, como forma de aumentar a confiabilidade do processo. • Gerar certidão no ato de conclusão da diligência, o que diminuiria o tempo de trabalho do notificador, além de tornar mais célere a devolução dos documentos para o tomador de serviço.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
