@@ -9,7 +9,12 @@ As notificações realizar-se-ão conforme parâmetros estabelecidos em lei, com
 
 ## Problema
 
-Como tornar o processo de notificações extrajudiciais cartorárias mais ágil, mais barato e mais confiável.
+Existe uma grande demanda para planejar as rotas diariamente com o objetivo de atender as numerosas quantidades de notificações, existindo ainda a necessidade de localizar por até três tentativas no mesmo endereço o notificador. Para esse deslocamento, temos que considerar o alto custo de combustível e o gasto do tempo do notificador para o deslocamento, tentando traçar destinos que determine melhores rotas entre os endereços. 
+
+Além de garantir a transparência para o notificado das tentativas de contato, consequências e conteúdo da notificação realizada pelo notificador.
+
+Objetivando tornar o processo de notificações extrajudiciais cartorárias mais ágil, mais barato e mais confiável é que visamos desenvolver o Notfy.
+
 
 ## Objetivos
 
