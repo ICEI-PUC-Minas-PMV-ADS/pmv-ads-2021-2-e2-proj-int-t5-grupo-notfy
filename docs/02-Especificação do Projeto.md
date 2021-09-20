@@ -8,19 +8,33 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Alice Idade: 54 anos Gênero: Feminino Profissão: Tabeliã Instrução: Bacharel em Direito Estado civil: Casada Cidade: Jaboticatubas Mídias: Twitter, Facebook e Instagram
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficcionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Desafios: Administrar melhor seu Cartório, procurar ferramentas e mecanismos que facilitem a rotina no trabalho de toda sua equipe. Otimização de processos.
+
+
+Bruno Idade: 27 anos Gênero: Masculino Profissão: Notificador Instrução: Graduando em Administração Estado civil: Solteiro Cidade: Belo Horizonte Mídias: Twitter, Facebook e Instagram
+
+Biografia: Bruno Almeida, tem 27 anos, cursa Administração no período noturno e trabalha no período integral. Ele é fã de novas tecnologias, utiliza muitos apps para facilitar seu dia a dia bastante atarefado. É um homem bastante comunicativo, tem facilidade de relacionar com as pessoas. Bruno gosta de ouvir músicas eletrônicas e podcast, e tem hábito de praticar corridas de rua aos finais de semana. Fica muito tempo conectado na internet, utilização maior pelo celular.
+
+Desafios: Por por não conseguir atender muitas demandas, perder muito tempo no deslocamento entre uma notificação e outra, além do alto custo financeiro para o deslocamento com pouca logística, Bruno acredita que poderia utilizar a tecnologia a seu favor para melhorar seu desempenho com as notificações. Otimizando seu trabalho, atenderia com mais eficácia suas demandas e aumentaria a segurança do processo referente às notificações extrajudiciárias.
+
+
+Cíntia Idade: 45 anos Gênero: Feminino Profissão: Advogada e Notária de Cartório Instrução: Bacharel em Direito Estado civil: Casada Cidade: Contagem Mídias: Facebook e Instagram
+
+Biografia: É advogada e notária em um cartório na região de Contagem. Casada e mãe de duas crianças, gosta de passar o tempo livre com sua família. Ela tem um perfil analítico e focada em conhecimento, obcecada com novidades e inovações. Quer sempre qualificar sua equipe, porém não dispõe de muito tempo e sua agenda está sempre apertada.
+
+Desafios: Ela gostaria de aumentar seus resultados utilizando ferramentas tecnológicas que simplifiquem seus processos diários otimizando tempo e gerando melhores resultados - com estratégias inovadoras, ser líder referência para sua equipe. Seus principais obstáculos são o excesso de tarefas e a dificuldade de gestão de tempo, além da falta de incentivo e aprovação da direção para colocar em prática todas as suas ideias.
+
+
+Joana Dark Idade: 47 anos Profissão: Notificadora Escolaridade: Ensino médio completo Estado civil: Casada. Cidade: Belo Horizonte - MG
+
+Biografia: Joana é uma mulher de 47 anos, mãe de 2 filhos adultos e avó de 1 neto. Trabalha como notificadora há 20 anos. Não tem a pretensão de avançar nos estudos e está satisfeita com sua escolarização e profissão. Também não gosta de ferramentas complicadas. Após o expediente, Joana faz doces para a confeitaria que ele tem em casa com uma de suas filhas. Nos momentos de lazer, gosta de assistir novelas e ler revistas e ter um tempo livre com o seu neto.
+
+Desafios: Joana se perde muito por não ter uma rota pré-definida. Perde muito tempo tentando planejar um roteiro de entrega e ainda assim, acaba fazendo um trajeto ineficiente. Precisa otimizar as atividades como notificadora para se dedicar mais à confeitaria, considerando que demora para concluir suas atividades diárias. Tem muita dificuldade com tecnologias e coisas novas, também não se interessa em aprender porque se julga incapaz.
+
 
 ## Histórias de Usuários
 
