@@ -16,7 +16,9 @@ Este problema com otimização de rotas está relacionado à um problema conheci
 Por fim, o problema consiste em:
 
 1 - Dificuldade de elaborar rotas otimizadas, por vezes o notificador percorre em cículos entrem pontos a, b, c, d  ... diversas vezes por não ter mapeado uma rota otimizada de acordo com as notificações em aberto.
+
 2 - Dificuldade em comprovar as tentativas de entrega de notificação quando não encontra ninguém no endereço.
+
 3 - Dificuldade de comprovar que o o documento entregue ao notificado é o mesmo que se tem nos registros.
 
 
