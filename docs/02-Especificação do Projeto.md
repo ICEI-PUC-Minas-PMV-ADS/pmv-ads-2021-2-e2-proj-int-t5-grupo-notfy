@@ -9,6 +9,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 ![img](img/Alice.PNG)
+
 Alice Idade: 54 anos Gênero: Feminino Profissão: Tabeliã Instrução: Bacharel em Direito Estado civil: Casada Cidade: Jaboticatubas Mídias: Twitter, Facebook e Instagram
 
 Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficcionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
@@ -16,6 +17,7 @@ Biografia: Alice mineira nascida na região da serra do espinhaço, no municípi
 Desafios: Administrar melhor seu Cartório, procurar ferramentas e mecanismos que facilitem a rotina no trabalho de toda sua equipe. Otimização de processos.
 
 ![img](img/Bruno.PNG)
+
 Bruno Idade: 27 anos Gênero: Masculino Profissão: Notificador Instrução: Graduando em Administração Estado civil: Solteiro Cidade: Belo Horizonte Mídias: Twitter, Facebook e Instagram
 
 Biografia: Bruno Almeida, tem 27 anos, cursa Administração no período noturno e trabalha no período integral. Ele é fã de novas tecnologias, utiliza muitos apps para facilitar seu dia a dia bastante atarefado. É um homem bastante comunicativo, tem facilidade de relacionar com as pessoas. Bruno gosta de ouvir músicas eletrônicas e podcast, e tem hábito de praticar corridas de rua aos finais de semana. Fica muito tempo conectado na internet, utilização maior pelo celular.
@@ -23,6 +25,7 @@ Biografia: Bruno Almeida, tem 27 anos, cursa Administração no período noturno
 Desafios: Por por não conseguir atender muitas demandas, perder muito tempo no deslocamento entre uma notificação e outra, além do alto custo financeiro para o deslocamento com pouca logística, Bruno acredita que poderia utilizar a tecnologia a seu favor para melhorar seu desempenho com as notificações. Otimizando seu trabalho, atenderia com mais eficácia suas demandas e aumentaria a segurança do processo referente às notificações extrajudiciárias.
 
 ![img](img/Cíntia.PNG)
+
 Cíntia Idade: 45 anos Gênero: Feminino Profissão: Advogada e Notária de Cartório Instrução: Bacharel em Direito Estado civil: Casada Cidade: Contagem Mídias: Facebook e Instagram
 
 Biografia: É advogada e notária em um cartório na região de Contagem. Casada e mãe de duas crianças, gosta de passar o tempo livre com sua família. Ela tem um perfil analítico e focada em conhecimento, obcecada com novidades e inovações. Quer sempre qualificar sua equipe, porém não dispõe de muito tempo e sua agenda está sempre apertada.
@@ -44,7 +47,32 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Notificador         | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
