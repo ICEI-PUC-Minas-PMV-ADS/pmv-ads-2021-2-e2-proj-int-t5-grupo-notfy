@@ -9,19 +9,23 @@ As notificações realizar-se-ão conforme parâmetros estabelecidos em lei, com
 
 ## Problema
 
-Existe uma grande demanda para planejar as rotas diariamente com o objetivo de atender as numerosas quantidades de notificações, existindo ainda a necessidade de localizar por até três tentativas no mesmo endereço o notificador. Para esse deslocamento, temos que considerar o alto custo de combustível e o gasto do tempo do notificador para o deslocamento, tentando traçar destinos que determine melhores rotas entre os endereços. 
+Existe uma grande demanda de notificações e por isso faz-se necessário planejar as rotas diariamente objetivando maior celeridade e menor custo no atendimento desta demanda, existindo ainda a necessidade de localizar por até três tentativas no mesmo endereço o notificador. Para esse deslocamento, temos que considerar o alto custo de combustível e o gasto do tempo do notificador para o deslocamento, tentando traçar destinos que determine melhores rotas entre os endereços. 
 
-Além de garantir a transparência para o notificado das tentativas de contato, consequências e conteúdo da notificação realizada pelo notificador.
+Este problema com otimização de rotas está relacionado à um problema conhecido na computção como "Problema do caixeiro-viajante", um prblema NP-difícil. Entretanto exite na literatura alguns trabalhos e algorítimos que resolvem em parte esse problema e otimizam rotas para n soluções diferentes.
 
-Objetivando tornar o processo de notificações extrajudiciais cartorárias mais ágil, mais barato e mais confiável é que visamos desenvolver o Notfy.
+Por fim, o problema consiste em:
+
+1 - Dificuldade de elaborar rotas otimizadas, por vezes o notificador percorre em cículos entrem pontos a, b, c, d  ... diversas vezes por não ter mapeado uma rota otimizada de acordo com as notificações em aberto.
+2 - Dificuldade em comprovar as tentativas de entrega de notificação quando não encontra ninguém no endereço.
+3 - Dificuldade de comprovar que o o documento entregue ao notificado é o mesmo que se tem nos registros.
 
 
 ## Objetivos
 
-O objetivo geral do projeto é o desenvolvimento de uma aplicação interativa para otimizar todo o processo de notificação extrajudicial cartorária, através de aplicações de sistema de informação que auxiliem o notificador a desempenhar de forma mais ágil e segura o seu trabalho.
+O objetivo geral do projeto é o desenvolvimento de uma aplicação interativa (Notfy) para otimizar todo o processo de notificação extrajudicial cartorária, através de aplicações de sistema de informação que auxiliem o notificador a desempenhar de forma mais ágil e segura o seu trabalho.
 
 Objetivos específicos • Elaborar rotas funcionais que possibilitem que o notificador opte pelos trajetos mais curtos ou mais rápidos, o que poderia gerar uma economia de tempo e de recursos financeiros. • Criar um banco de dados que, através do tempo, possa armazenar informações de intimações cuja relevância interfiram na elaboração das rotas. • Gerar check-in em cada visita, como forma de aumentar a confiabilidade do processo. • Gerar certidão no ato de conclusão da diligência, o que diminuiria o tempo de trabalho do notificador, além de tornar mais célere a devolução dos documentos para o tomador de serviço.
- 
+
 
 ## Justificativa
 
