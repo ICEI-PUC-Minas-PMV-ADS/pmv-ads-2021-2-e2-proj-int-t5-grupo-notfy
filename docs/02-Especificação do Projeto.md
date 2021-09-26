@@ -46,6 +46,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--|--|--|
+|Tabelião       | Quero cadastrar notifiandos e/ alterar estes cadastros           | Fornecer dados dados para o sistema.               |
+|--|--|--|
+|Funcionário do catório       | Aprovar vínculo do notificador que tiver solicitado e realmente pertencer ao quadro de notificadores do cartório            | permitir que o notificador tenha acesso às demandas               |
+|--|--|--|
 |Notificador       | Escolher como informar o ponto de partida para iniciar o dia. Se por minha localidade atual ou se por um ponto específico            | Eu posso querer iniciar agora ou a partir de um lugar que estou indo para outro compromisso pessoal.               |
 |--|--|--|
 |Notificador         | Pausar rota em paradas longas para atividades que não sejam relacionadas à atividade cartorária               | Pausa para almoço ou descanso |
@@ -63,6 +67,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Notificador       | Gravar local/endereço de visita no informativo de tentativa de notificação                | Gerar comprovação de que eu estava no endereço correto no momento da tentativa
 |--|--|--|
 |Notificador       | Colher a assinatura do notificado confirmando ter recebido e ter ciência dos que foi informado                 | Gerar comprovação da entrega da notificação |
+|--|--|--|
+|Notificador       | Dar baixa na notificação                 | Encerrar demanda e enviála para lista de impressão  |
 |--|--|--|
 |Notificador       | Imprimir notificação assinada pelo notificado                 | Entregar o documento ao notificado e para possível arquivo físico se necessário |
 |--|--|--|
@@ -122,39 +128,56 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                          | Prioridade |
 |------|-----------------------------------------                                                        |----|
-|RF-001| Permitir cadastrar os notificadores.                                                            | ALTA | 
-|RF-002| Permitir alterar cadastro notiicadores.                                                         | ALTA |
-|RF-003| Permitir cadastrar notificandos.                                                                | MÉDIA|
-|RF-004| Permitir alterar cadastro notificandos.                                                         | ALTA |
-|RF-005| Permitir cadastrar notificações.                                                                | MÉDIA|
-|RF-006| Incluir lista de notificaçoes diarias.                                                          | MÉDIA|
-|RF-007| Permitir alterar lista.                                                                         | MÉDIA|
-|RF-008| Permitir definir ponto de partida e finalização.                                                | MÉDIA|
-|RF-009| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
-|RF-010| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
-|RF-011| Permitir Realizar pausas e alterar rotas e sequencias.                                          | MÉDIA|
-|RF-012| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
-|RF-013| No checkin, permitir informar tentativa de notificação sem exito.                               | MÉDIA|
-|RF-014| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
-|RF-015| Permitir incluir notificação em listas de outros dias em caso de negativa da notificação.       | MÉDIA|
-|RF-016| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
-|RF-017| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
-|RF-018| Permitir alterar certidão de conclusão.                                                         | BAIXA|
-|RF-019| Realizar baixa da notificação após emissão da certidão.                                         | MÉDIA|
+|RF-001| Permitir cadastrar os notificadores com login e senha                                           | ALTA | 
+|RF-002| Permitir notificadores solicitarem vínculo em cartórios utilizando e-mail coorporativo como dado validador | ALTA | 
+|RF-003| Permitir alterar cadastro notiicadores.                                                         | ALTA |
+|RF-004| Permitir cadastrar notificandos.                                                                | MÉDIA|
+|RF-005| Permitir alterar cadastro notificandos.                                                         | ALTA |
+|RF-006| Permitir cadastrar notificações.                                                                | MÉDIA|
+|RF-007| Incluir lista de notificaçoes diarias.                                                          | MÉDIA|
+|RF-008| Permitir alterar lista.                                                                         | MÉDIA|
+|RF-009| Permitir definir ponto de partida e finalização.                                                | MÉDIA|
+|RF-010| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
+|RF-011| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
+|RF-012| Permitir Realizar pausas e alterar rotas e sequencias.                                          | MÉDIA|
+|RF-013| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
+|RF-014| No checkin, permitir informar tentativa de notificação sem exito.                               | MÉDIA|
+|RF-015| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
+|RF-016| Permitir incluir notificação em listas de outros dias em caso de negativa da notificação.       | MÉDIA|
+|RF-017| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
+|RF-018| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
+|RF-019| Permitir imprimir certidão                                                                      | MÉDIA|
+|RF-020| Permitir imprimir notificações                                                                  | MÉDIA|
+|RF-021| Permitir alterar certidão de conclusão.                                                         | BAIXA|
+|RF-022| Realizar baixa da notificação após emissão da certidão.                                         | MÉDIA|
 
 
 
-### Requisitos não Funcionais
+### Requisitos não Funcionais (incluindo Usabilidade e acessibilidade0
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                             | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 5s.                                         | BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 10s.                                         | BAIXA | 
 |RNF-003| Validar senha de acesso.                                                                       | MÉDIA | 
-|RNF-004| O sistema deve ser responsivo para rodar em um dispositivos móvel.                              | MÉDIA | 
-|RNF-005| O sistema deve se comunicar com o SQL Server.                                                  | MÉDIA | 
-|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel.                              | MÉDIA | 
-|RNF-007| O sistema deve ser escalável para integração com rotas do google.                              | MÉDIA | 
+|RNF-004| Para recurso de impressão deve utilizar um ícone de impressora, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
+|RNF-005| Todas as telas devem possuir botão voltar e sair                          | MÉDIA | 
+|RNF-006| Os botões Voltar e Sair devem utilizar um um ícone de Seta para direita e esquerda respectivamente, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
+|RNF-007| No topo da tela, é preciso ter marcadores direcionadores para partes importantes do sistema                          | MÉDIA | 
+|RNF-008| Todos os ícones devem ser implementados utilizado o recurso 'alt' para inclusão de tootip                          | MÉDIA | 
+|RNF-009| Toda e qualquer imagem deve ser implementada utilizando o recurso 'alt' para descrição da imagem                          | MÉDIA | 
+|RNF-010| Em caso de imagens decorativas, implementar o recurso 'alt' de modo que o leitor de tela ignore a imagem                          | MÉDIA | 
+|RNF-011| O sistema deve utilizar-se do recurso VLibras ( ferramenta grtuita e de implementação no front-end para renderização de um avatar que traduz textos e mídia de áudio para Libras                          | MÉDIA | 
+|RNF-012| Para açoes definitivas no sistema, como dar baixa, fazer checkin ou checkout por exemplo, o sistema deve abrir uma caixa de diálogo perguntando se o cliente tem certeza da ação e pedindo confirmação                          | MÉDIA | 
+|RNF-013| Os lables para preechimento devem conter uma máscara com exemplo de como o usuário deve inserir a informação                          | MÉDIA | 
+|RNF-014| Para dados que exigem alguma formatção específica, além da máscara, caso o usuário digite errado, o sistema precisa lançar um alerta debaixo do lablem preenchido errado, em cor vermelha.                           | MÉDIA | 
+|RNF-015| Se apesar do alerta, o usuário prosseguir com a ação, o botão de finalização da atividade em percurso deve ser mantido desabilitado e ao tentar clcar, um modal com informação exata do erro deve ser lançado                         | MÉDIA | 
+|RNF-016| O sistema deve permitir utilização de atalhos no teclado como ctrlX, ctrlC, ctrlZ, ctrlV entre outros que possibilitem a otimização do uso ou a não utilização do mouse                          | MÉDIA | 
+|RNF-017| O sistema deve se comunicar com o SQL Server.                                                  | MÉDIA | 
+|RNF-018| A Seção do usuário deve expirar por inatividade após 30 minutos                              | MÉDIA | 
+|RNF-019| A Seção do usuário deve expirar por ao fechar o browser                             | MÉDIA | 
+|RNF-018| A Seção do usuário deve expirar se o usuário clicar em sair                              | MÉDIA | 
+|RNF-019| O sistema deve ser escalável para integração com rotas do google.                              | MÉDIA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
