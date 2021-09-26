@@ -182,6 +182,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
+> **Ajuda**:
+- [Podemos encontrar a documentação do Vlibras aqui](https://www.gov.br/governodigital/pt-br/vlibras/)
+
+
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
  correspondem a uma funcionalidade que deve estar presente na
@@ -191,6 +195,7 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
   correspondem a uma característica técnica, seja de usabilidade,
   desempenho, confiabilidade, segurança ou outro (ex: suporte a
   dispositivos iOS e Android).
+  
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
