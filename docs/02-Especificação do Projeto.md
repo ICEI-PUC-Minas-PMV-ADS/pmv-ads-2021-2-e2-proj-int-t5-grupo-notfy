@@ -110,7 +110,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 > **Referências**:
 > - [Heurísticas de Nielsen ](https://www.nngroup.com/)
-> - [Guia de acessibilidade](https://w3c.br/Home/WebHome/)
+> - [Guia de acessibilidade - Documentações W#C](https://w3c.br/Home/WebHome/)
 
 
 > **Links Úteis**:
