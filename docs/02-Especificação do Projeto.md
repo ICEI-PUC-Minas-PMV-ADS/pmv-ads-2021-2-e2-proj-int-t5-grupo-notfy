@@ -20,7 +20,7 @@ Desafios: Administrar melhor seu Cartório, procurar ferramentas e mecanismos qu
 
 ![img](img/Bruno.PNG)
 
-**Bruno** 
+**Bruno** <br/> 
 Idade: 27 anos <br/>  Gênero: Masculino<br/>  Profissão: Notificador <br/> Instrução: Graduando em Administração<br/>  Estado civil: Solteiro <br/> Cidade: Belo Horizonte-MG<br/>  Mídias: Twitter, Facebook e Instagram
 
 Biografia: Bruno Almeida, tem 27 anos, cursa Administração no período noturno e trabalha no período integral. Ele é fã de novas tecnologias, utiliza muitos apps para facilitar seu dia a dia bastante atarefado. É um homem bastante comunicativo, tem facilidade de relacionar com as pessoas. Bruno gosta de ouvir músicas eletrônicas e podcast, e tem hábito de praticar corridas de rua aos finais de semana. Fica muito tempo conectado na internet, utilização maior pelo celular.
