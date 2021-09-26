@@ -89,17 +89,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                                          | Prioridade |
+|------|-----------------------------------------                                                        |----|
+|RF-001| Permitir cadastrar os notificadores.                                                            | ALTA | 
+|RF-002| Permitir alterar cadastro notiicadores.                                                         | ALTA |
+|RF-003| Permitir cadastrar notificandos.                                                                | MÉDIA|
+|RF-004| Permitir alterar cadastro notificandos.                                                         | ALTA |
+|RF-005| Permitir cadastrar notificações.                                                                | MÉDIA|
+|RF-006| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
+|RF-007| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
+|RF-008| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
+|RF-009| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
+|RF-010| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
+|RF-011| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
+|RF-012| Permitir alterar certidão de conclusão.                                                         | BAIXA|
+|RF-013| Realizar baixa da notificação após emissão da certidão.                                         | MÉDIA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                             | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 5s.                                         | BAIXA | 
+|RNF-003| Validar senha de acesso.                                                                       | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel                              | MÉDIA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
