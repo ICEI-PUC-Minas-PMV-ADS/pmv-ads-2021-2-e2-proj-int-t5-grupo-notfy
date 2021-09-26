@@ -46,10 +46,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Notificador         | Escolher como informar o ponto de  | Eu posso querer iniciar agora ou a     |
-                     | partida para iniciar o dia. Se por | partir de um lugar que estou indo para |
-                     | minha localidade atual ou se por um|outro compromisso pessoal.              |
-                     | ponto específico                   |                                        | 
+|Notificador       | Escolher como informar o ponto de partida para iniciar o dia. Se por minha localidade atual ou se por um ponto específico            | Eu posso querer iniciar agora ou a partir de um lugar que estou indo para outro compromisso pessoal.               |
 |--------------------|------------------------------------|----------------------------------------|
 |Notificador         | Pausar rota em paradas longas para atividades que não sejam relacionadas à atividade cartorária               | Pausa para almoço ou descanso |
 |--------------------|------------------------------------|----------------------------------------|
@@ -62,10 +59,52 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Notificador       | Voltar endereços não visitados para fila de endereços não visitado quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo                 | Não perder de vista estes endereços que não foram visitados |
 |--------------------|------------------------------------|----------------------------------------|
 |Notificador       | Informar tentativa de notificação sem êxito e a razão de não ter conseguido entregar a notificação.                 | iniciar a geração de comprovação de que a tentativa foi feita |
+|--------------------|------------------------------------|----------------------------------------|
+|Notificador       | Gravar local/endereço de visita no informativo de tentativa de notificação                | Gerar comprovação de que eu estava no endereço correto no momento da tentativa
+|--------------------|------------------------------------|----------------------------------------|
+|Notificador       | Colher a assinatura do notificado confirmando ter recebido e ter ciência dos que foi informado                 | Gerar comprovação da entrega da notificação |
+|--------------------|------------------------------------|----------------------------------------|
+|Notificador       | Imprimir notificação assinada pelo notificado                 | Entregar o documento ao notificado e para possível arquivo físico se necessário |
+|--------------------|------------------------------------|----------------------------------------|
+|Novo Notificador       | Me cadastrar no sistema Notfy                | Cadastro do notificador |
+|--------------------|------------------------------------|----------------------------------------|
+|Notificador  e Novo notificador     | Solicitar autorização aos cartórios para os quais eu presto serviço, para vincular meu perfil às demandas que o cartório repassa para mim                 | Manter a segurança dos dados das notificações, garantindo que apenas notificadores que realmente prestam serviço para o cartório tem acesso às demandas|
+|--------------------|------------------------------------|----------------------------------------|
+|Notificador       | Fazer login com meu usuário e senha                | Para garantir segurança nos dados  |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário      | Quero que a a aplicação seja responsiva para que seja acessado via mobile ou tablet para uso durante o trabalho                 | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Ter visibilidade do status do sistema, tal qual a primeira heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Que haja correspondência entre o sistema e o mundo real, tal qual a segunda heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Ter liberdade de controle das minhas ações, como a terceira heurística de Nielsen recomenda          | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Que haja consistência e Padronização no sistema, como a quarta heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Ser prevenido dos meus erros no sistema, como a quinta heurística de Nielsen recomenda          | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Reconhecer ao invés de memorizar, como a sexta heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Ter flexibilidade e eficiência para utilizar o sistema, tal qual a sétima heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário       | Receber ajuda e ter documentação disponível, tal qual a décima heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário com deficiência visual     | Conseguir utilizar o sistema usando o leitor de telas           | Promover acessibilidade, segundo diretrizes do W3C|
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário com deficiência auditiva       | Que o sistema fale a minha língua, libras           | Promover acessibilidade, segundo diretrizes do W3C |
+|--------------------|------------------------------------|----------------------------------------|
+|Dono do Sistema     | Que meu sistema seja escalável com capacidade para lidar com níveis crescentes de carga           | Produto escalável |
+|--------------------|------------------------------------|----------------------------------------|
+|Dono do Sistema       | Ter segurança de que meu sistema consegue lidar com problemas de concorrência, já que fornece demandas para diferentes notificadores           | Evitar erros relacionados à concorrência de dados, como por exemplo enviar a mesma demanda para mais de um notificador |
+|--------------------|------------------------------------|----------------------------------------|
+|Dono do sistema       | Que a seção dos usuários expire por inatividade após determinado tempo, ou após fechar o browser            | Manter segurança da plataforma |
+|--------------------|------------------------------------|----------------------------------------|
 
+> **Referências**:
+> - [Heurísticas de Nielsen ](https://www.nngroup.com/)
+> - [Guia de acessibilidade](https://w3c.br/Home/WebHome/)
 
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
