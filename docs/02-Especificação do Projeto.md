@@ -229,8 +229,13 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
+
+O diagrama contempla as principais ligações previstas entre casos de uso e atores e permite detalhar os Requisitos Funcionais identificados na etapa anterior.
+
+O diagrama de caso de uso resume os detalhes dos usuários do seu sistema, também conhecidos como atores, e as interações deles com o sistema. 
 Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://www.lucidchart.com/)
 <br/>
+
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
