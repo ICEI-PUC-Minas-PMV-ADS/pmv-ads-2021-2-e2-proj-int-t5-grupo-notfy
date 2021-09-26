@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ![img](img/Alice.PNG)
 
-Alice Idade: 54 anos Gênero: Feminino Profissão: Tabeliã Instrução: Bacharel em Direito Estado civil: Casada Cidade: Jaboticatubas Mídias: Twitter, Facebook e Instagram
+**Alice** <br/> Idade: 54 anos <br/>  Gênero: Feminino <br/> Profissão: Tabeliã <br/> Instrução: Bacharel em Direito <br/>  Estado civil: Casada <br/> Cidade: Jaboticatubas <br/>  Mídias: Twitter, Facebook e Instagram
 
 Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficcionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
 
