@@ -87,14 +87,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir cadastrar notificandos.                                                                | MÉDIA|
 |RF-004| Permitir alterar cadastro notificandos.                                                         | ALTA |
 |RF-005| Permitir cadastrar notificações.                                                                | MÉDIA|
-|RF-006| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
-|RF-007| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
-|RF-008| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
-|RF-009| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
-|RF-010| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
-|RF-011| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
-|RF-012| Permitir alterar certidão de conclusão.                                                         | BAIXA|
-|RF-013| Realizar baixa da notificação após emissão da certidão.                                         | MÉDIA|
+|RF-006| Incluir lista de notificaçoes diarias.                                                          | MÉDIA|
+|RF-007| Permitir alterar lista.                                                                         | MÉDIA|
+|RF-008| Permitir definir ponto de partida e finalização.                                                | MÉDIA|
+|RF-009| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
+|RF-010| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
+|RF-011| Permitir Realizar pausas e alterar rotas e sequencias.                                          | MÉDIA|
+|RF-012| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
+|RF-013| No checkin, permitir informar tentativa de notificação sem exito.                               | MÉDIA|
+|RF-014| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
+|RF-015| Permitir incluir notificação em listas de outros dias em caso de negativa da notificação.       | MÉDIA|
+|RF-016| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
+|RF-017| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
+|RF-018| Permitir alterar certidão de conclusão.                                                         | BAIXA|
+|RF-019| Realizar baixa da notificação após emissão da certidão.                                         | MÉDIA|
+
+
 
 ### Requisitos não Funcionais
 
@@ -103,7 +111,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                             | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 5s.                                         | BAIXA | 
 |RNF-003| Validar senha de acesso.                                                                       | MÉDIA | 
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel                              | MÉDIA | 
+|RNF-004| O sistema deve ser responsivo para rodar em um dispositivos móvel.                              | MÉDIA | 
+|RNF-005| O sistema deve se comunicar com o SQL Server.                                                  | MÉDIA | 
+|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel.                              | MÉDIA | 
+|RNF-007| O sistema deve ser escalável para integração com rotas do google.                              | MÉDIA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
@@ -128,7 +139,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O Sistema não tem integração nativa com outros softwares do cartório.|
+|03| O Sistema não mantém comunicação com outros bancos de dados além do SQL Server.|
+
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
