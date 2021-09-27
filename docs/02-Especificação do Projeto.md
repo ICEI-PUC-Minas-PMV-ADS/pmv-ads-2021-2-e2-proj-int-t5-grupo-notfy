@@ -233,7 +233,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 O diagrama contempla as principais ligações previstas entre casos de uso e atores e permite detalhar os Requisitos Funcionais identificados na etapa anterior.
 
 O diagrama de caso de uso resume os detalhes dos usuários do seu sistema, também conhecidos como atores, e as interações deles com o sistema. 
-Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://www.lucidchart.com/)
+Para o Diagrama de Casos de Uso, utilizamos a ferramenta [Lucidchart](https://www.lucidchart.com/)
 <br/>
 
 ![img](img/UMLNotfy.png)
@@ -241,7 +241,10 @@ Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://ww
 
 ## Diagrama de Classes
 
-O diagrama de Classes é a representação da estrutura e relações das classes. 
+O diagrama de Classes é a representação da estrutura e relações das classes. <br/>
+Para o Diagrama de Classes, utilizamos a ferramenta [Lucidchart](https://www.lucidchart.com/)
+<br/>
+
 
 ![img](img/diagramaClasse.png)
 
