@@ -239,7 +239,7 @@ Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://ww
 ![img](img/UMLNotfy.png)
 
 
-## Diagrama de Classe
+## Diagrama de Classes
 ![img](img/diagramaClasse.png)
 
 > **Links Úteis**:
