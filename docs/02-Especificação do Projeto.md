@@ -238,6 +238,10 @@ Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://ww
 
 ![img](img/UMLNotfy.png)
 
+
+## Diagrama de Classe
+![img](img/diagramaClasse.png)
+
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
