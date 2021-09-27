@@ -240,6 +240,9 @@ Para o diagrama de casos de uso, utilizamos a ferramenta [Lucidchart](https://ww
 
 
 ## Diagrama de Classes
+
+O diagrama de Classes é a representação da estrutura e relações das classes. 
+
 ![img](img/diagramaClasse.png)
 
 > **Links Úteis**:
