@@ -93,27 +93,27 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--|--|--|
 |Usuário       | Que haja correspondência entre o sistema e o mundo real, tal qual a segunda heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Ter liberdade de controle das minhas ações, como a terceira heurística de Nielsen recomenda          | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Ter liberdade de controle das minhas ações, como a terceira heurística de Nielsen recomenda.          | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Que haja consistência e Padronização no sistema, como a quarta heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Que haja consistência e Padronização no sistema, como a quarta heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Ser prevenido dos meus erros no sistema, como a quinta heurística de Nielsen recomenda          | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Ser prevenido dos meus erros no sistema, como a quinta heurística de Nielsen recomenda.          | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Reconhecer ao invés de memorizar, como a sexta heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Reconhecer ao invés de memorizar, como a sexta heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Ter flexibilidade e eficiência para utilizar o sistema, tal qual a sétima heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Ter flexibilidade e eficiência para utilizar o sistema, tal qual a sétima heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Receber ajuda e ter documentação disponível, tal qual a décima heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Receber ajuda e ter documentação disponível, tal qual a décima heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário com deficiência visual     | Conseguir utilizar o sistema usando o leitor de telas           | Promover acessibilidade, segundo diretrizes do W3C|
+|Usuário com deficiência visual.     | Conseguir utilizar o sistema usando o leitor de telas.           | Promover acessibilidade, segundo diretrizes do W3C.|
 |--|--|--|
-|Usuário com deficiência auditiva       | Que o sistema fale a minha língua, libras           | Promover acessibilidade, segundo diretrizes do W3C |
+|Usuário com deficiência auditiva.       | Que o sistema fale a minha língua, libras.           | Promover acessibilidade, segundo diretrizes do W3C. |
 |--|--|--|
-|Dono do Sistema     | Que meu sistema seja escalável com capacidade para lidar com níveis crescentes de carga           | Produto escalável |
+|Dono do Sistema     | Que meu sistema seja escalável com capacidade para lidar com níveis crescentes de carga.           | Produto escalável. |
 |--|--|--|
-|Dono do Sistema       | Ter segurança de que meu sistema consegue lidar com problemas de concorrência, já que fornece demandas para diferentes notificadores           | Evitar erros relacionados à concorrência de dados, como por exemplo enviar a mesma demanda para mais de um notificador |
+|Dono do Sistema       | Ter segurança de que meu sistema consegue lidar com problemas de concorrência, já que fornece demandas para diferentes notificadores.           | Evitar erros relacionados à concorrência de dados, como por exemplo enviar a mesma demanda para mais de um notificador. |
 |--|--|--|
-|Dono do sistema       | Que a seção dos usuários expire por inatividade após determinado tempo, ou após fechar o browser            | Manter segurança da plataforma |
+|Dono do sistema       | Que a seção dos usuários expire por inatividade após determinado tempo, ou após fechar o browser.            | Manter segurança da plataforma. |
 |--|--|--|
 
 
