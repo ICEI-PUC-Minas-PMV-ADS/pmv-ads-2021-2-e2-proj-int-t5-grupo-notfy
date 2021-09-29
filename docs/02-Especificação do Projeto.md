@@ -55,19 +55,19 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--|--|--|
-|Tabelião       | Quero cadastrar notifiandos e/ alterar estes cadastros           | Fornecer dados dados para o sistema.               |
+|Tabelião       | Quero cadastrar notifiandos e alterar estes cadastros.            | Fornecer dados dados para o sistema.               |
 |--|--|--|
-|Funcionário do catório       | Aprovar vínculo do notificador que tiver solicitado e realmente pertencer ao quadro de notificadores do cartório            | permitir que o notificador tenha acesso às demandas               |
+|Funcionário do catório       | Aprovar vínculo do notificador que tiver solicitado e realmente pertencer ao quadro de notificadores do cartório.            | permitir que o notificador tenha acesso às demandas.               |
 |--|--|--|
-|Notificador       | Escolher como informar o ponto de partida para iniciar o dia. Se por minha localidade atual ou se por um ponto específico            | Eu posso querer iniciar agora ou a partir de um lugar que estou indo para outro compromisso pessoal.               |
+|Notificador       | Escolher como informar o ponto de partida para iniciar o dia. Se por minha localidade atual ou se por um ponto específico.            | Eu posso querer iniciar agora ou a partir de um lugar que estou indo para outro compromisso pessoal.               |
 |--|--|--|
-|Notificador         | Pausar rota em paradas longas para atividades que não sejam relacionadas à atividade cartorária               | Pausa para almoço ou descanso |
+|Notificador         | Pausar rota em paradas longas para atividades que não sejam relacionadas à atividade cartorária.               | Pausa para almoço ou descanso. |
 |--|--|--|
-|Notificador       | Incluir um endereço para alguma atividade pessoal na lista de endereços e notificações, desde que essa tarefa não tenha um horário específico para ser realizada durante o dia                 | Se eu preciso passar no cartório para pegar algum documento para o dia seguinte ou realizar alguma tarefa pessoal em determinado endereço sem um horário fixo, eu posso incluir o endereço na rota normal |
+|Notificador       | Incluir um endereço para alguma atividade pessoal na lista de endereços e notificações, desde que essa tarefa não tenha um horário específico para ser realizada durante o dia.                 | Se eu preciso passar no cartório para pegar algum documento para o dia seguinte ou realizar alguma tarefa pessoal em determinado endereço sem um horário fixo, eu posso incluir o endereço na rota normal. |
 |--|--|--|
-|Notificador       | Alterar rota para reiniciar a partir de um ponto em outra localidade e voltar com os endereços já roteados que não couberem mais na nova rota para fila dos próximos dias                 | Caso eu esteja em um ponto A e precise ir para um ponto fora da rota não previsto, a rota pode ser reiniciada a partir do ponto que estou indo. |
+|Notificador       | Alterar rota para reiniciar a partir de um ponto em outra localidade e voltar com os endereços já roteados que não couberem mais na nova rota para fila dos próximos dias.                 | Caso eu esteja em um ponto A e precise ir para um ponto fora da rota não previsto, a rota pode ser reiniciada a partir do ponto que estou indo. |
 |--|--|--|
-|Notificador       |Selecionar quantos endereços pretendo ir durante o dia ou quando pretendo parar  quando eu  iniciar ou reiniciar uma rota              | Para que a rota conste apenas a quantidade prevista de notificações no dia ou quantidade suportada dentro do volume de horas trabalhado no dia |
+|Notificador       |Selecionar quantos endereços pretendo ir durante o dia ou quando pretendo parar  quando eu  iniciar ou reiniciar uma rota.              | Para que a rota conste apenas a quantidade prevista de notificações no dia ou quantidade suportada dentro do volume de horas trabalhado no dia. |
 |--|--|--|
 |Notificador       | Voltar endereços não visitados para fila de endereços não visitado quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo                 | Não perder de vista estes endereços que não foram visitados |
 ||--|--|--|
