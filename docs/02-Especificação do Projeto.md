@@ -69,29 +69,29 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--|--|--|
 |Notificador       |Selecionar quantos endereços pretendo ir durante o dia ou quando pretendo parar  quando eu  iniciar ou reiniciar uma rota.              | Para que a rota conste apenas a quantidade prevista de notificações no dia ou quantidade suportada dentro do volume de horas trabalhado no dia. |
 |--|--|--|
-|Notificador       | Voltar endereços não visitados para fila de endereços não visitado quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo                 | Não perder de vista estes endereços que não foram visitados |
+|Notificador       | Voltar endereços não visitados para fila de endereços não visitado quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo.                 | Não perder de vista estes endereços que não foram visitados. |
 ||--|--|--|
-|Notificador       | Informar tentativa de notificação sem êxito e a razão de não ter conseguido entregar a notificação.                 | iniciar a geração de comprovação de que a tentativa foi feita |
+|Notificador       | Informar tentativa de notificação sem êxito e a razão de não ter conseguido entregar a notificação.                 | iniciar a geração de comprovação de que a tentativa foi feita. |
 |--|--|--|
-|Notificador       | Gravar local/endereço de visita no informativo de tentativa de notificação                | Gerar comprovação de que eu estava no endereço correto no momento da tentativa
+|Notificador       | Gravar local/endereço de visita no informativo de tentativa de notificação.                | Gerar comprovação de que eu estava no endereço correto no momento da tentativa.
 |--|--|--|
-|Notificador       | Colher a assinatura do notificado confirmando ter recebido e ter ciência dos que foi informado                 | Gerar comprovação da entrega da notificação |
+|Notificador       | Colher a assinatura do notificado confirmando ter recebido e ter ciência dos que foi informado.                 | Gerar comprovação da entrega da notificação. |
 |--|--|--|
-|Notificador       | Dar baixa na notificação                 | Encerrar demanda e enviála para lista de impressão  |
+|Notificador       | Dar baixa na notificação.                 | Encerrar demanda e enviála para lista de impressão.  |
 |--|--|--|
-|Notificador       | Imprimir notificação assinada pelo notificado                 | Entregar o documento ao notificado e para possível arquivo físico se necessário |
+|Notificador       | Imprimir notificação assinada pelo notificado.                 | Entregar o documento ao notificado e para possível arquivo físico se necessário. |
 |--|--|--|
-|Novo Notificador       | Me cadastrar no sistema Notfy                | Cadastro do notificador |
+|Novo Notificador       | Me cadastrar no sistema Notfy.                | Cadastro do notificador. |
 |--|--|--|
-|Notificador  e Novo notificador     | Solicitar autorização aos cartórios para os quais eu presto serviço, para vincular meu perfil às demandas que o cartório repassa para mim                 | Manter a segurança dos dados das notificações, garantindo que apenas notificadores que realmente prestam serviço para o cartório tem acesso às demandas|
+|Notificador  e Novo notificador     | Solicitar autorização aos cartórios para os quais eu presto serviço, para vincular meu perfil às demandas que o cartório repassa para mim.                 | Manter a segurança dos dados das notificações, garantindo que apenas notificadores que realmente prestam serviço para o cartório tem acesso às demandas.|
 |--|--|--|
-|Notificador       | Fazer login com meu usuário e senha                | Para garantir segurança nos dados  |
+|Notificador       | Fazer login com meu usuário e senha.                | Para garantir segurança nos dados.  |
 |--|--|--|
-|Usuário      | Quero que a a aplicação seja responsiva para que seja acessado via mobile ou tablet para uso durante o trabalho                 | Promover usabilidade e boa experiência do usuário |
+|Usuário      | Quero que a a aplicação seja responsiva para que seja acessado via mobile ou tablet para uso durante o trabalho.                 | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Ter visibilidade do status do sistema, tal qual a primeira heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Ter visibilidade do status do sistema, tal qual a primeira heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
-|Usuário       | Que haja correspondência entre o sistema e o mundo real, tal qual a segunda heurística de Nielsen recomenda           | Promover usabilidade e boa experiência do usuário |
+|Usuário       | Que haja correspondência entre o sistema e o mundo real, tal qual a segunda heurística de Nielsen recomenda.           | Promover usabilidade e boa experiência do usuário. |
 |--|--|--|
 |Usuário       | Ter liberdade de controle das minhas ações, como a terceira heurística de Nielsen recomenda          | Promover usabilidade e boa experiência do usuário |
 |--|--|--|
