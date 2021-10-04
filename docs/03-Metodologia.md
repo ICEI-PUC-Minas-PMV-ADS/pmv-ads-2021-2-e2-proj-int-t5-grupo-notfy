@@ -38,7 +38,9 @@ Apesar de usarmos o modelo cascata, dadas às limitações impostas pela estrutu
 
 A equipe está organizada da seguinte maneira:<br/>
 **Scrum Master**: Janaina Jamarino Rosa <br/>
+
 **Product Owner**: Flávio Duarte Carvalho <br/>
+
 Equipe de **Desenvolvimento e Design**: <br/>
 Leandro David Metzker <br/>
 Luiza Jamarino Rosa Grigório <br/>
