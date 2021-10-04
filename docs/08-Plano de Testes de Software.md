@@ -1,5 +1,8 @@
 # Plano de Testes de Software
 
+Disponível no seguinte link: https://docs.google.com/document/d/1gv1Q2NCINrLgRgsNBHvGzZwpaac0xGjF/edit?usp=sharing&ouid=106292933679861026581&rtpof=true&sd=true
+
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
