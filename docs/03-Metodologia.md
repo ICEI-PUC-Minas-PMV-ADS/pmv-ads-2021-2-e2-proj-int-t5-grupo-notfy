@@ -36,14 +36,14 @@ Apesar de usarmos o modelo cascata, dadas às limitações impostas pela estrutu
 
 #### Divisão de Papéis:
 
-A equipe está organizada da seguinte maneira:
-Scrum Master: Janaina Jamarino Rosa
-Product Owner: Flávio Duarte Carvalho
-Equipe de Desenvolvimento e Design:
-Leandro David Metzker
-Luiza Jamarino Rosa Grigório
-Platini Gomes da Rocha
-Priscilha Alves
+A equipe está organizada da seguinte maneira:<br/>
+**Scrum Master**: Janaina Jamarino Rosa <br/>
+**Product Owner**: Flávio Duarte Carvalho <br/>
+Equipe de **Desenvolvimento e Design**:
+Leandro David Metzker <br/>
+Luiza Jamarino Rosa Grigório <br/>
+Platini Gomes da Rocha <br/>
+Priscilha Sansão Alves
 
 ##### Processo:
 
