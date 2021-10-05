@@ -67,9 +67,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--|--|--|
 |Notificador       | Alterar rota para reiniciar a partir de um ponto em outra localidade e voltar com os endereços já roteados que não couberem mais na nova rota para fila dos próximos dias.                 | Caso eu esteja em um ponto A e precise ir para um ponto fora da rota não previsto, a rota pode ser reiniciada a partir do ponto que estou indo. |
 |--|--|--|
-|Notificador       |Selecionar quantos endereços pretendo ir durante o dia ou quando pretendo parar  quando eu  iniciar ou reiniciar uma rota.              | Para que a rota conste apenas a quantidade prevista de notificações no dia ou quantidade suportada dentro do volume de horas trabalhado no dia. |
+|Notificador       |Selecionar quantos endereços pretendo ir durante o dia ou quando pretendo parar no momento em que eu iniciar ou reiniciar uma rota.              | Para que a rota conste apenas a quantidade prevista de notificações no dia ou quantidade suportada dentro do volume de horas trabalhadas no dia. |
 |--|--|--|
-|Notificador       | Voltar endereços não visitados para fila de endereços não visitado quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo.                 | Não perder de vista estes endereços que não foram visitados. |
+|Notificador       | Voltar endereços não visitados para fila de endereços não visitados quando não der tempo de ir em todos os endereços roteados ou eu precisar parar por qualquer motivo.                 | Não perder de vista estes endereços que não foram visitados. |
 ||--|--|--|
 |Notificador       | Informar tentativa de notificação sem êxito e a razão de não ter conseguido entregar a notificação.                 | iniciar a geração de comprovação de que a tentativa foi feita. |
 |--|--|--|
@@ -77,13 +77,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--|--|--|
 |Notificador       | Colher a assinatura do notificado confirmando ter recebido e ter ciência dos que foi informado.                 | Gerar comprovação da entrega da notificação. |
 |--|--|--|
-|Notificador       | Dar baixa na notificação.                 | Encerrar demanda e enviála para lista de impressão.  |
+|Notificador       | Dar baixa na notificação.                 | Encerrar demanda e enviá-la para lista de impressão.  |
 |--|--|--|
-|Notificador       | Imprimir notificação assinada pelo notificado.                 | Entregar o documento ao notificado e para possível arquivo físico se necessário. |
+|Notificador       | Imprimir notificação assinada pelo notificado.                 | Entregar o documento ao notificado e para possível arquivo físico, se necessário. |
 |--|--|--|
 |Novo Notificador       | Me cadastrar no sistema Notfy.                | Cadastro do notificador. |
 |--|--|--|
-|Notificador  e Novo notificador     | Solicitar autorização aos cartórios para os quais eu presto serviço, para vincular meu perfil às demandas que o cartório repassa para mim.                 | Manter a segurança dos dados das notificações, garantindo que apenas notificadores que realmente prestam serviço para o cartório tem acesso às demandas.|
+|Notificador  e Novo notificador     | Solicitar autorização aos cartórios para os quais eu presto serviço, para vincular meu perfil às demandas que o cartório repassa para mim.                 | Manter a segurança dos dados das notificações, garantindo que apenas notificadores que realmente prestam serviço para o cartório tenham acesso às demandas.|
 |--|--|--|
 |Notificador       | Fazer login com meu usuário e senha.                | Para garantir segurança nos dados.  |
 |--|--|--|
@@ -139,7 +139,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------                                                        |----|
 |RF-001| Permitir cadastrar os notificadores com login e senha                                           | ALTA | 
 |RF-002| Permitir notificadores solicitarem vínculo em cartórios utilizando e-mail coorporativo como dado validador | ALTA | 
-|RF-003| Permitir alterar cadastro notiicadores.                                                         | ALTA |
+|RF-003| Permitir alterar cadastro noticadores.                                                          | ALTA |
 |RF-004| Permitir cadastrar notificandos.                                                                | MÉDIA|
 |RF-005| Permitir alterar cadastro notificandos.                                                         | ALTA |
 |RF-006| Permitir cadastrar notificações.                                                                | MÉDIA|
@@ -162,7 +162,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 
-### Requisitos não Funcionais (incluindo Usabilidade e acessibilidade0
+### Requisitos não Funcionais (incluindo Usabilidade e acessibilidade)
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -177,10 +177,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-009| Toda e qualquer imagem deve ser implementada utilizando o recurso 'alt' para descrição da imagem                          | MÉDIA | 
 |RNF-010| Em caso de imagens decorativas, implementar o recurso 'alt' de modo que o leitor de tela ignore a imagem                          | MÉDIA | 
 |RNF-011| O sistema deve utilizar-se do recurso VLibras ( ferramenta grtuita e de implementação no front-end para renderização de um avatar que traduz textos e mídia de áudio para Libras                          | MÉDIA | 
-|RNF-012| Para açoes definitivas no sistema, como dar baixa, fazer checkin ou checkout por exemplo, o sistema deve abrir uma caixa de diálogo perguntando se o cliente tem certeza da ação e pedindo confirmação                          | MÉDIA | 
+|RNF-012| Para ações definitivas no sistema, como dar baixa, fazer checkin ou checkout por exemplo, o sistema deve abrir uma caixa de diálogo perguntando se o cliente tem certeza da ação e pedindo confirmação                          | MÉDIA | 
 |RNF-013| Os lables para preechimento devem conter uma máscara com exemplo de como o usuário deve inserir a informação                          | MÉDIA | 
-|RNF-014| Para dados que exigem alguma formatção específica, além da máscara, caso o usuário digite errado, o sistema precisa lançar um alerta debaixo do lablem preenchido errado, em cor vermelha.                           | MÉDIA | 
-|RNF-015| Se apesar do alerta, o usuário prosseguir com a ação, o botão de finalização da atividade em percurso deve ser mantido desabilitado e ao tentar clcar, um modal com informação exata do erro deve ser lançado                         | MÉDIA | 
+|RNF-014| Para dados que exigem alguma formatação específica, além da máscara, caso o usuário digite errado, o sistema precisa lançar um alerta debaixo do lable preenchido errado, em cor vermelha.                           | MÉDIA | 
+|RNF-015| Se apesar do alerta, o usuário prosseguir com a ação, o botão de finalização da atividade em percurso deve ser mantido desabilitado e ao tentar clicar, um modal com informação exata do erro deve ser lançado.                         | MÉDIA | 
 |RNF-016| O sistema deve permitir utilização de atalhos no teclado como ctrlX, ctrlC, ctrlZ, ctrlV entre outros que possibilitem a otimização do uso ou a não utilização do mouse                          | MÉDIA | 
 |RNF-017| O sistema deve se comunicar com o SQL Server.                                                  | MÉDIA | 
 |RNF-018| A Seção do usuário deve expirar por inatividade após 30 minutos                              | MÉDIA | 
