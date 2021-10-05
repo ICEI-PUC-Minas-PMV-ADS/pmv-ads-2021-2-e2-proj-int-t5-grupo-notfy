@@ -30,7 +30,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Planejamento de testes
 
- ![Esquema](img/PlanoTestes.pdf)
+ Iniciamos o planejamento de testes e estamos entregando para que possamos acompanhar o andamento do mesmo.
+ ![Plano de Testes](img/PlanoTestes.pdf)
 
 ## Tecnologias Utilizadas
 
