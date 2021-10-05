@@ -10,7 +10,7 @@ Vide Arquivo 03-Especificações do projeto
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
