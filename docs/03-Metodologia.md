@@ -17,18 +17,18 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branchs:
 
-- `Main`: versão estável já testada do software
+- `Main`: versão estável já testada do software.
 - `Homologação`: versão desenvolvida e em fase de testes.
-- `Desenvolvimento`: versão em desenvolvimento
+- `Desenvolvimento`: versão em desenvolvimento.
 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentação`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `melhorias`: uma funcionalidade precisa ser melhorada
-- `funcionalidade`: uma nova funcionalidade precisa ser introduzida
+- `documentação`: melhorias ou acréscimos à documentação.
+- `bug`: uma funcionalidade encontra-se com problemas.
+- `melhorias`: uma funcionalidade precisa ser melhorada.
+- `funcionalidade`: uma nova funcionalidade precisa ser introduzida.
 
 ### Geremciamento do Projeto:
 
