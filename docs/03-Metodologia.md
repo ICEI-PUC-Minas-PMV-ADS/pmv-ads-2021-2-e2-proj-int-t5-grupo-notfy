@@ -3,7 +3,7 @@
 
 O modelo de processo adotado no processo é o modelo Cascata. A escolha deste modelo ocorreu devido ao mesmo ser aplicável a sistemas cujos requisitos são bem definidos e pelo fato de exigir uma documentação mais rígida e completa, ideal nesse caso, já que se trata de um trabalho acadêmico. Além disso, uma vantagem adicional de se utilizar esse modelo é o fato de o desenvolvimento de software se dará ao longo da disciplina de Projeto cuja ementa segue o modelo cascata. Desta forma, na medida com que as aulas avançam, as tarefas a serem desenvolvidas acompanham o conteúdo estudado.
 
-Desta forma, todas as etapas envolvidas no processo de desenvolvimento do software serão descritas na ordem com que são mencionadas no diagrama do modelo cascata, representado à seguir:
+Desta forma, todas as etapas envolvidas no processo de desenvolvimento do software serão descritas na ordem com que são mencionadas no diagrama do modelo cascata, representado a seguir:
 
 ![Modelo Cascata](img/cascata.jpg)
 
