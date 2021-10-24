@@ -30,7 +30,7 @@ etiquetas:
 - `melhorias`: uma funcionalidade precisa ser melhorada.
 - `funcionalidade`: uma nova funcionalidade precisa ser introduzida.
 
-### Geremciamento do Projeto:
+### Gerenciamento do Projeto:
 
 Apesar de usarmos o modelo cascata, dadas às limitações impostas pela estrutura da disciplina, a equipe introduz processos de metodologias ágeis em cada etapa e se divide conforme se segue:
 
