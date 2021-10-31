@@ -76,6 +76,6 @@ AMBIENTE: Gerenciamento do Projeto - PLATAFORMA: GitHub - LINK DE ACESSO: https:
 
 
 
-Segundo o modelo definido acima, a estruturação do documento se dá em seções nas quais em cada uma serão apresentados os resultados do desenvolvimento de cada uma das atividades que compõem o modelo Cascata. Além disso, a padronização dos diagramas de UML se dará por meio da utiulização da ferramenta Draw.io para o desenvolvimento e compartilhamento de todas as representações. Outra decisão importante foi manter a IDE visual Code e o repositório do GitHub para o desenvolvimento e compartilhamento de todo projeto.
+Segundo o modelo definido acima, a estruturação do documento se dá em seções nas quais em cada uma serão apresentados os resultados do desenvolvimento de cada uma das atividades que compõem o modelo Cascata. Além disso, a padronização dos diagramas de UML se dará por meio da utilização da ferramenta Draw.io para o desenvolvimento e compartilhamento de todas as representações. Outra decisão importante foi manter a IDE visual Code e o repositório do GitHub para o desenvolvimento e compartilhamento de todo projeto.
 
 
