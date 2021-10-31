@@ -30,7 +30,9 @@ Objetivos específicos
 
 • Elaborar rotas funcionais que possibilitem que o notificador opte pelos trajetos mais curtos ou mais rápidos, o que poderia gerar uma economia de tempo e de recursos financeiros. 
 
-• Criar um banco de dados que, através do tempo, possa armazenar informações de intimações cuja relevância interfiram na elaboração das rotas. • Gerar check-in em cada visita, como forma de aumentar a confiabilidade do processo. 
+• Criar um banco de dados que, através do tempo, possa armazenar informações de intimações cuja relevância interfiram na elaboração das rotas. 
+
+• Gerar check-in em cada visita, como forma de aumentar a confiabilidade do processo. 
 
 • Gerar certidão no ato de conclusão da diligência, o que diminuiria o tempo de trabalho do notificador, além de tornar mais célere a devolução dos documentos para o tomador de serviço.
 
