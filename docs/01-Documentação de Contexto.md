@@ -26,7 +26,7 @@ Por fim, o problema consiste em:
 
 O objetivo geral do projeto é o desenvolvimento de uma aplicação interativa (Notfy) para otimizar todo o processo de notificação extrajudicial cartorária, através de aplicações de sistema de informação que auxiliem o notificador a desempenhar de forma mais ágil e segura o seu trabalho.
 
-Objetivos específicos 
+Objetivos específicos: 
 
 • Elaborar rotas funcionais que possibilitem que o notificador opte pelos trajetos mais curtos ou mais rápidos, o que poderia gerar uma economia de tempo e de recursos financeiros. 
 
@@ -47,4 +47,4 @@ Para o mutuário a quem se destina a notificação, o Notfy aumentaria suas chan
 
 ## Público-Alvo
 
-O público-alvo do projeto Notfy é composto por Notificadores e Notários registradores de Cartórios de Registro de Imóveis. A faixa etária predominante é de pessoas com idade entre 30 e 40 anos, com vários níveis de escolaridade, familiarizadas com aplicativos e mídias sociais.
+O público-alvo do projeto Notfy é composto por Notificadores e Notários Registradores de Cartórios de Registro de Imóveis. A faixa etária predominante é de pessoas com idade entre 30 a 40 anos, com vários níveis de escolaridade, familiarizadas com aplicativos e mídias sociais.
