@@ -171,14 +171,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| Validar senha de acesso.                                                                       | MÉDIA | 
 |RNF-004| Para recurso de impressão deve utilizar um ícone de impressora, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
 |RNF-005| Todas as telas devem possuir botão voltar e sair                          | MÉDIA | 
-|RNF-006| Os botões Voltar e Sair devem utilizar um um ícone de Seta para direita e esquerda respectivamente, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
+|RNF-006| Os botões Voltar e Sair devem utilizar um ícone de Seta para direita e esquerda respectivamente, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
 |RNF-007| No topo da tela, é preciso ter marcadores direcionadores para partes importantes do sistema                          | MÉDIA | 
 |RNF-008| Todos os ícones devem ser implementados utilizado o recurso 'alt' para inclusão de tootip                          | MÉDIA | 
 |RNF-009| Toda e qualquer imagem deve ser implementada utilizando o recurso 'alt' para descrição da imagem                          | MÉDIA | 
 |RNF-010| Em caso de imagens decorativas, implementar o recurso 'alt' de modo que o leitor de tela ignore a imagem                          | MÉDIA | 
-|RNF-011| O sistema deve utilizar-se do recurso VLibras ( ferramenta grtuita e de implementação no front-end para renderização de um avatar que traduz textos e mídia de áudio para Libras                          | MÉDIA | 
-|RNF-012| Para ações definitivas no sistema, como dar baixa, fazer checkin ou checkout por exemplo, o sistema deve abrir uma caixa de diálogo perguntando se o cliente tem certeza da ação e pedindo confirmação                          | MÉDIA | 
-|RNF-013| Os lables para preechimento devem conter uma máscara com exemplo de como o usuário deve inserir a informação                          | MÉDIA | 
+|RNF-011| O sistema deve utilizar-se do recurso VLibras ( ferramenta gratuita e de implementação no front-end para renderização de um avatar que traduz textos e mídia de áudio para Libras                          | MÉDIA | 
+|RNF-012| Para ações definitivas no sistema, como dar baixa, fazer check-in ou check-out por exemplo, o sistema deve abrir uma caixa de diálogo perguntando se o cliente tem certeza da ação e pedindo confirmação                          | MÉDIA | 
+|RNF-013| Os lables para preenchimento devem conter uma máscara com exemplo de como o usuário deve inserir a informação                          | MÉDIA | 
 |RNF-014| Para dados que exigem alguma formatação específica, além da máscara, caso o usuário digite errado, o sistema precisa lançar um alerta debaixo do lable preenchido errado, em cor vermelha.                           | MÉDIA | 
 |RNF-015| Se apesar do alerta, o usuário prosseguir com a ação, o botão de finalização da atividade em percurso deve ser mantido desabilitado e ao tentar clicar, um modal com informação exata do erro deve ser lançado.                         | MÉDIA | 
 |RNF-016| O sistema deve permitir utilização de atalhos no teclado como ctrlX, ctrlC, ctrlZ, ctrlV entre outros que possibilitem a otimização do uso ou a não utilização do mouse                          | MÉDIA | 
@@ -192,7 +192,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 > **Ajuda**:
-- [Podemos encontrar a documentação do Vlibras aqui](https://www.gov.br/governodigital/pt-br/vlibras/)
+- [Podemos encontrar a documentação do VLibras aqui](https://www.gov.br/governodigital/pt-br/vlibras/)
 
 
 - [Requisitos Funcionais
