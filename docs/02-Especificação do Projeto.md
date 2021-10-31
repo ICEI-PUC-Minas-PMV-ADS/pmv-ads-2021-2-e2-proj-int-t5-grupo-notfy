@@ -139,22 +139,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------                                                        |----|
 |RF-001| Permitir cadastrar os notificadores com login e senha                                           | ALTA | 
 |RF-002| Permitir notificadores solicitarem vínculo em cartórios utilizando e-mail coorporativo como dado validador | ALTA | 
-|RF-003| Permitir alterar cadastro noticadores.                                                          | ALTA |
+|RF-003| Permitir alterar cadastro notificadores.                                                          | ALTA |
 |RF-004| Permitir cadastrar notificandos.                                                                | MÉDIA|
 |RF-005| Permitir alterar cadastro notificandos.                                                         | ALTA |
 |RF-006| Permitir cadastrar notificações.                                                                | MÉDIA|
-|RF-007| Incluir lista de notificaçoes diarias.                                                          | MÉDIA|
+|RF-007| Incluir lista de notificações diárias.                                                          | MÉDIA|
 |RF-008| Permitir alterar lista.                                                                         | MÉDIA|
 |RF-009| Permitir definir ponto de partida e finalização.                                                | MÉDIA|
 |RF-010| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
-|RF-011| Gerar rota de acordo com a sequencia.                                                           | MÉDIA|
+|RF-011| Gerar rota de acordo com a sequência.                                                           | MÉDIA|
 |RF-012| Permitir Realizar pausas e alterar rotas e sequencias.                                          | MÉDIA|
-|RF-013| Permitir realizar checkin no endereço do notificando.                                           | MÉDIA|
-|RF-014| No checkin, permitir informar tentativa de notificação sem exito.                               | MÉDIA|
+|RF-013| Permitir realizar check-in no endereço do notificando.                                           | MÉDIA|
+|RF-014| No check-in, permitir informar tentativa de notificação sem êxito.                               | MÉDIA|
 |RF-015| Permitir registrar até 3 tentativas de entrega em cada endereço do notificando.                 | MÉDIA|
 |RF-016| Permitir incluir notificação em listas de outros dias em caso de negativa da notificação.       | MÉDIA|
 |RF-017| Permitir registrar conclusão da diligencia se efetivada a notificação.                          | MÉDIA|
-|RF-018| Se diligencia efetivada, permitir gerar certidão de conlusão.                                   | MÉDIA|
+|RF-018| Se diligencia efetivada, permitir gerar certidão de conclusão.                                   | MÉDIA|
 |RF-019| Permitir imprimir certidão                                                                      | MÉDIA|
 |RF-020| Permitir imprimir notificações                                                                  | MÉDIA|
 |RF-021| Permitir alterar certidão de conclusão.                                                         | BAIXA|
@@ -166,7 +166,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel.                             | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móveis.                             | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 10s.                                         | BAIXA | 
 |RNF-003| Validar senha de acesso.                                                                       | MÉDIA | 
 |RNF-004| Para recurso de impressão deve utilizar um ícone de impressora, conforme lista de ícones definidos pelo design  (usar sempre o mesmo ícone mesmo que o recurso esteja em outra tela)                          | MÉDIA | 
