@@ -11,7 +11,7 @@ As notificações realizar-se-ão conforme parâmetros estabelecidos em lei, com
 
 Existe uma grande demanda de notificações e por isso faz-se necessário planejar as rotas diariamente objetivando maior celeridade e menor custo no atendimento desta demanda, existindo ainda a necessidade de localizar por até três tentativas no mesmo endereço o notificador. Para esse deslocamento, temos que considerar o alto custo de combustível e o gasto do tempo do notificador para o deslocamento, tentando traçar destinos que determine melhores rotas entre os endereços. 
 
-Este problema com otimização de rotas está relacionado à um problema conhecido na computção como "Problema do caixeiro-viajante", um problema NP-difícil. Entretanto exite na literatura alguns trabalhos e algorítimos que resolvem em parte esse problema e otimizam rotas para n soluções diferentes.
+Este problema com otimização de rotas está relacionado à um problema conhecido na computação como "Problema do caixeiro-viajante", um problema NP-difícil. Entretanto existe na literatura alguns trabalhos e algorítmos que resolvem em parte esse problema e otimizam rotas para n soluções diferentes.
 
 Por fim, o problema consiste em:
 
@@ -45,4 +45,4 @@ Para o mutuário a quem se destina a notificação, o Notfy aumentaria suas chan
 
 ## Público-Alvo
 
-O público alvo do projeto Notfy é composto por Notificadores e Notários registradores de Cartórios de Registro de Imóveis. A faixa etária predominante é de pessoas com idade entre 30 e 40 anos, com vários níveis de escolaridade, familiarizadas com aplicativos e mídias sociais.
+O público-alvo do projeto Notfy é composto por Notificadores e Notários registradores de Cartórios de Registro de Imóveis. A faixa etária predominante é de pessoas com idade entre 30 e 40 anos, com vários níveis de escolaridade, familiarizadas com aplicativos e mídias sociais.
