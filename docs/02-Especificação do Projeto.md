@@ -12,7 +12,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 **Alice** <br/> Idade: 54 anos <br/>  Gênero: Feminino <br/> Profissão: Tabeliã <br/> Instrução: Bacharel em Direito <br/>  Estado civil: Casada <br/> Cidade: Jaboticatubas-MG <br/>  Mídias: Twitter, Facebook e Instagram
 
-Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficcionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
+Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
 
 Desafios: Administrar melhor seu Cartório, procurar ferramentas e mecanismos que facilitem a rotina no trabalho de toda sua equipe. Otimização de processos.<br/> 
 
@@ -25,7 +25,7 @@ Idade: 27 anos <br/>  Gênero: Masculino<br/>  Profissão: Notificador <br/> Ins
 
 Biografia: Bruno Almeida, tem 27 anos, cursa Administração no período noturno e trabalha no período integral. Ele é fã de novas tecnologias, utiliza muitos apps para facilitar seu dia a dia bastante atarefado. É um homem bastante comunicativo, tem facilidade de relacionar com as pessoas. Bruno gosta de ouvir músicas eletrônicas e podcast, e tem hábito de praticar corridas de rua aos finais de semana. Fica muito tempo conectado na internet, utilização maior pelo celular.
 
-Desafios: Por por não conseguir atender muitas demandas, perder muito tempo no deslocamento entre uma notificação e outra, além do alto custo financeiro para o deslocamento com pouca logística, Bruno acredita que poderia utilizar a tecnologia a seu favor para melhorar seu desempenho com as notificações. Otimizando seu trabalho, atenderia com mais eficácia suas demandas e aumentaria a segurança do processo referente às notificações extrajudiciárias.
+Desafios: Por não conseguir atender muitas demandas, perder muito tempo no deslocamento entre uma notificação e outra, além do alto custo financeiro para o deslocamento com pouca logística, Bruno acredita que poderia utilizar a tecnologia a seu favor para melhorar seu desempenho com as notificações. Otimizando seu trabalho, atenderia com mais eficácia suas demandas e aumentaria a segurança do processo referente às notificações extrajudiciárias.
 <br/> 
 
 --
@@ -55,9 +55,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--|--|--|
-|Tabelião       | Quero cadastrar notifiandos e alterar estes cadastros.            | Fornecer dados dados para o sistema.               |
+|Tabelião       | Quero cadastrar notificandos e alterar estes cadastros.            | Fornecer dados para o sistema.               |
 |--|--|--|
-|Funcionário do catório       | Aprovar vínculo do notificador que tiver solicitado e realmente pertencer ao quadro de notificadores do cartório.            | permitir que o notificador tenha acesso às demandas.               |
+|Funcionário do cartório       | Aprovar vínculo do notificador que tiver solicitado e realmente pertencer ao quadro de notificadores do cartório.            | permitir que o notificador tenha acesso às demandas.               |
 |--|--|--|
 |Notificador       | Escolher como informar o ponto de partida para iniciar o dia. Se por minha localidade atual ou se por um ponto específico.            | Eu posso querer iniciar agora ou a partir de um lugar que estou indo para outro compromisso pessoal.               |
 |--|--|--|
