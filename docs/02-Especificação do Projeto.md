@@ -236,7 +236,7 @@ O diagrama de caso de uso resume os detalhes dos usu√°rios do seu sistema, tamb√
 Para o Diagrama de Casos de Uso, utilizamos a ferramenta [Lucidchart](https://www.lucidchart.com/)
 <br/>
 
-![img](img/UMLNotfy.png)
+![img](img/Caso de Uso UML Notfy.jpeg)
 
 
 ## Diagrama de Classes
