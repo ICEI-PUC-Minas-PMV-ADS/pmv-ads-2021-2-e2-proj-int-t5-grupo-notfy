@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ![img](img/Alice.PNG)
 
-**Alice** <br/> Idade: 54 anos <br/>  Gênero: Feminino <br/> Profissão: Tabeliã <br/> Instrução: Bacharel em Direito <br/>  Estado civil: Casada <br/> Cidade: Jaboticatubas-MG <br/>  Mídias: Twitter, Facebook e Instagram
+**Alice** <br/> Idade: 54 anos <br/>  Gênero: Feminino <br/> Profissão: Tabeliã e Proprietária de Cartório <br/> Instrução: Bacharel em Direito <br/>  Estado civil: Casada <br/> Cidade: Jaboticatubas-MG <br/>  Mídias: Twitter, Facebook e Instagram
 
 Biografia: Alice mineira nascida na região da serra do espinhaço, no município de Jaboticatubas, tem 54 anos, apaixonada por sua família e pela natureza, trabalhou por anos em um cartório em Belo Horizonte como escrevente, hoje trabalha em seu próprio cartório. É aficionada por inovações tecnológicas. Também é simpática e muito influente na cidade. Seu hobby favorito são as caminhadas ao ar livre.
 
@@ -116,19 +116,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Dono do sistema       | Que a seção dos usuários expire por inatividade após determinado tempo, ou após fechar o browser.            | Manter segurança da plataforma. |
 |--|--|--|
 
-
-> **Referências**:
-> - [Heurísticas de Nielsen ](https://www.nngroup.com/)
-> - [Guia de acessibilidade - Documentações W#C](https://w3c.br/Home/WebHome/)
-
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -144,7 +131,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Permitir alterar cadastro notificandos.                                                         | ALTA |
 |RF-006| Permitir cadastrar notificações.                                                                | MÉDIA|
 |RF-007| Incluir lista de notificações diárias.                                                          | MÉDIA|
-|RF-008| Permitir alterar lista.                                                                         | MÉDIA|
+|RF-008| Permitir alterar lista de notificações.                                                         | MÉDIA|
 |RF-009| Permitir definir ponto de partida e finalização.                                                | MÉDIA|
 |RF-010| Permitir definir sequencia de entrega notificações.                                             | MÉDIA|
 |RF-011| Gerar rota de acordo com a sequência.                                                           | MÉDIA|
