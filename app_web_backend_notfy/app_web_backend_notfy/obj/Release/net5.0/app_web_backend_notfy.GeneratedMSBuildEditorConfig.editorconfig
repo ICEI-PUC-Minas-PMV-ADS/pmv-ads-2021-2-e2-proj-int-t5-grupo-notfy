@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = app_web_backend_notfy
+build_property.ProjectDir = C:\Users\Platini\Source\Repos\pmv-ads-2021-2-e2-proj-int-t5-grupo-notfy\app_web_backend_notfy\app_web_backend_notfy\
