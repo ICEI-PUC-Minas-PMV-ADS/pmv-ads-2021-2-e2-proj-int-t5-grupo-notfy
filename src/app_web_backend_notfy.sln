@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app_web_backend_notfy", "app_web_backend_notfy\app_web_backend_notfy.csproj", "{ECE343A1-0194-4EDB-9E99-FA3BE3C175AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECE343A1-0194-4EDB-9E99-FA3BE3C175AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE343A1-0194-4EDB-9E99-FA3BE3C175AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE343A1-0194-4EDB-9E99-FA3BE3C175AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE343A1-0194-4EDB-9E99-FA3BE3C175AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {911DE686-364A-42B2-B792-7F412970441E}
+	EndGlobalSection
+EndGlobal
