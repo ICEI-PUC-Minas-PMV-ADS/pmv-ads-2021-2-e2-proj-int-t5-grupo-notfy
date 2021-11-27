@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app_web_backend_notfy"
+    "\\app_web_backend_notfy\\bin\\Release",
+    "\\app_web_backend_notfy\\wwwroot"
   ],
-  "SelectedNode": "\\app_web_backend_notfy\\appsettings.json",
+  "SelectedNode": "\\app_web_backend_notfy",
   "PreviewInSolutionExplorer": false
 }
