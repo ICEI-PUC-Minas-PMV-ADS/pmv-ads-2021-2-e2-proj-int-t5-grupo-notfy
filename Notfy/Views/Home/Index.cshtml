@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron text-center" style="background-color: #3B5998; margin-top:20px;">
+    <h1 style="color: whitesmoke; font-family: 'Bauhaus 93'; font-size: 100px;">NOTFY</h1>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-4">
+        <div>
+            @Html.ActionLink("Notificadores", "Index", "Notificadors", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div>
+            @Html.ActionLink("Notificandos", "Index", "Notificandoes", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div>
+            @Html.ActionLink("Notificações", "Index", "Notificacaos", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>

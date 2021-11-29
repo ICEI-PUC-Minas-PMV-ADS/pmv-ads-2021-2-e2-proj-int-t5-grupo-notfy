@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_NOTFYModelStoreContainer" CdmEntityContainer="BD_NOTFYEntities">
+    <EntitySetMapping Name="Notificacao">
+      <EntityTypeMapping TypeName="BD_NOTFYModel.Notificacao">
+        <MappingFragment StoreEntitySet="Notificacao">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NotificandoID" ColumnName="NotificandoID" />
+          <ScalarProperty Name="MatriculaImovel" ColumnName="MatriculaImovel" />
+          <ScalarProperty Name="NotificadorID" ColumnName="NotificadorID" />
+          <ScalarProperty Name="Sequencia" ColumnName="Sequencia" />
+          <ScalarProperty Name="Tentativa1" ColumnName="Tentativa1" />
+          <ScalarProperty Name="Tentativa2" ColumnName="Tentativa2" />
+          <ScalarProperty Name="Tentativa3" ColumnName="Tentativa3" />
+          <ScalarProperty Name="Concluido" ColumnName="Concluido" />
+          <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificador">
+      <EntityTypeMapping TypeName="BD_NOTFYModel.Notificador">
+        <MappingFragment StoreEntitySet="Notificador">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificando">
+      <EntityTypeMapping TypeName="BD_NOTFYModel.Notificando">
+        <MappingFragment StoreEntitySet="Notificando">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

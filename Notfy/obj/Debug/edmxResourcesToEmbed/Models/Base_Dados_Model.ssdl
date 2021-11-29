@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_NOTFYModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Notificacao">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NotificandoID" Type="int" Nullable="false" />
+    <Property Name="MatriculaImovel" Type="int" Nullable="false" />
+    <Property Name="NotificadorID" Type="int" Nullable="false" />
+    <Property Name="Sequencia" Type="int" />
+    <Property Name="Tentativa1" Type="datetime" />
+    <Property Name="Tentativa2" Type="datetime" />
+    <Property Name="Tentativa3" Type="datetime" />
+    <Property Name="Concluido" Type="bit" />
+    <Property Name="Observacao" Type="text" />
+  </EntityType>
+  <EntityType Name="Notificador">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notificando">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Endereco" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Cidade" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_notificadorID">
+    <End Role="Notificador" Type="Self.Notificador" Multiplicity="1" />
+    <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Notificador">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Notificacao">
+        <PropertyRef Name="NotificadorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_notificandoID">
+    <End Role="Notificando" Type="Self.Notificando" Multiplicity="1" />
+    <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Notificando">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Notificacao">
+        <PropertyRef Name="NotificandoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BD_NOTFYModelStoreContainer">
+    <EntitySet Name="Notificacao" EntityType="Self.Notificacao" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificador" EntityType="Self.Notificador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificando" EntityType="Self.Notificando" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_notificadorID" Association="Self.FK_notificadorID">
+      <End Role="Notificador" EntitySet="Notificador" />
+      <End Role="Notificacao" EntitySet="Notificacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_notificandoID" Association="Self.FK_notificandoID">
+      <End Role="Notificando" EntitySet="Notificando" />
+      <End Role="Notificacao" EntitySet="Notificacao" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

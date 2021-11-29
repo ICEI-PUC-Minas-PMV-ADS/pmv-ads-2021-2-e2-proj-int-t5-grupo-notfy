@@ -5,7 +5,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Arquivos Diversos",
       "ColorIndex": -1
+    },
+    "9bcfa612-6210-4f7f-8796-046314e0290d": {
+      "ProjectGuid": "9bcfa612-6210-4f7f-8796-046314e0290d",
+      "DisplayName": "app_web_backend_notfy",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }

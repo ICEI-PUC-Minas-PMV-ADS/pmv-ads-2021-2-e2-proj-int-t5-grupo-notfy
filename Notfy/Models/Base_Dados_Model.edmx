@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BD_NOTFYModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Notificacao">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NotificandoID" Type="int" Nullable="false" />
+          <Property Name="MatriculaImovel" Type="int" Nullable="false" />
+          <Property Name="NotificadorID" Type="int" Nullable="false" />
+          <Property Name="Sequencia" Type="int" />
+          <Property Name="Tentativa1" Type="datetime" />
+          <Property Name="Tentativa2" Type="datetime" />
+          <Property Name="Tentativa3" Type="datetime" />
+          <Property Name="Concluido" Type="bit" />
+          <Property Name="Observacao" Type="text" />
+        </EntityType>
+        <EntityType Name="Notificador">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Telefone" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="150" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Notificando">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Telefone" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="Endereco" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CEP" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="Cidade" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Estado" Type="char" MaxLength="2" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_notificadorID">
+          <End Role="Notificador" Type="Self.Notificador" Multiplicity="1" />
+          <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Notificador">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Notificacao">
+              <PropertyRef Name="NotificadorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_notificandoID">
+          <End Role="Notificando" Type="Self.Notificando" Multiplicity="1" />
+          <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Notificando">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Notificacao">
+              <PropertyRef Name="NotificandoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_NOTFYModelStoreContainer">
+          <EntitySet Name="Notificacao" EntityType="Self.Notificacao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Notificador" EntityType="Self.Notificador" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Notificando" EntityType="Self.Notificando" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_notificadorID" Association="Self.FK_notificadorID">
+            <End Role="Notificador" EntitySet="Notificador" />
+            <End Role="Notificacao" EntitySet="Notificacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_notificandoID" Association="Self.FK_notificandoID">
+            <End Role="Notificando" EntitySet="Notificando" />
+            <End Role="Notificacao" EntitySet="Notificacao" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BD_NOTFYModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Notificacao">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NotificandoID" Type="Int32" Nullable="false" />
+          <Property Name="MatriculaImovel" Type="Int32" Nullable="false" />
+          <Property Name="NotificadorID" Type="Int32" Nullable="false" />
+          <Property Name="Sequencia" Type="Int32" />
+          <Property Name="Tentativa1" Type="DateTime" Precision="3" />
+          <Property Name="Tentativa2" Type="DateTime" Precision="3" />
+          <Property Name="Tentativa3" Type="DateTime" Precision="3" />
+          <Property Name="Concluido" Type="Boolean" />
+          <Property Name="Observacao" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Notificador" Relationship="Self.FK_notificadorID" FromRole="Notificacao" ToRole="Notificador" />
+          <NavigationProperty Name="Notificando" Relationship="Self.FK_notificandoID" FromRole="Notificacao" ToRole="Notificando" />
+        </EntityType>
+        <EntityType Name="Notificador">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telefone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Notificacao" Relationship="Self.FK_notificadorID" FromRole="Notificador" ToRole="Notificacao" />
+        </EntityType>
+        <EntityType Name="Notificando">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Telefone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Endereco" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CEP" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Cidade" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Estado" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Notificacao" Relationship="Self.FK_notificandoID" FromRole="Notificando" ToRole="Notificacao" />
+        </EntityType>
+        <Association Name="FK_notificadorID">
+          <End Role="Notificador" Type="Self.Notificador" Multiplicity="1" />
+          <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Notificador">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Notificacao">
+              <PropertyRef Name="NotificadorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_notificandoID">
+          <End Role="Notificando" Type="Self.Notificando" Multiplicity="1" />
+          <End Role="Notificacao" Type="Self.Notificacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Notificando">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Notificacao">
+              <PropertyRef Name="NotificandoID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BD_NOTFYEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Notificacao" EntityType="Self.Notificacao" />
+          <EntitySet Name="Notificador" EntityType="Self.Notificador" />
+          <EntitySet Name="Notificando" EntityType="Self.Notificando" />
+          <AssociationSet Name="FK_notificadorID" Association="Self.FK_notificadorID">
+            <End Role="Notificador" EntitySet="Notificador" />
+            <End Role="Notificacao" EntitySet="Notificacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK_notificandoID" Association="Self.FK_notificandoID">
+            <End Role="Notificando" EntitySet="Notificando" />
+            <End Role="Notificacao" EntitySet="Notificacao" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BD_NOTFYModelStoreContainer" CdmEntityContainer="BD_NOTFYEntities">
+          <EntitySetMapping Name="Notificacao">
+            <EntityTypeMapping TypeName="BD_NOTFYModel.Notificacao">
+              <MappingFragment StoreEntitySet="Notificacao">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NotificandoID" ColumnName="NotificandoID" />
+                <ScalarProperty Name="MatriculaImovel" ColumnName="MatriculaImovel" />
+                <ScalarProperty Name="NotificadorID" ColumnName="NotificadorID" />
+                <ScalarProperty Name="Sequencia" ColumnName="Sequencia" />
+                <ScalarProperty Name="Tentativa1" ColumnName="Tentativa1" />
+                <ScalarProperty Name="Tentativa2" ColumnName="Tentativa2" />
+                <ScalarProperty Name="Tentativa3" ColumnName="Tentativa3" />
+                <ScalarProperty Name="Concluido" ColumnName="Concluido" />
+                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Notificador">
+            <EntityTypeMapping TypeName="BD_NOTFYModel.Notificador">
+              <MappingFragment StoreEntitySet="Notificador">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+                <ScalarProperty Name="CPF" ColumnName="CPF" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Notificando">
+            <EntityTypeMapping TypeName="BD_NOTFYModel.Notificando">
+              <MappingFragment StoreEntitySet="Notificando">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+                <ScalarProperty Name="CPF" ColumnName="CPF" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
