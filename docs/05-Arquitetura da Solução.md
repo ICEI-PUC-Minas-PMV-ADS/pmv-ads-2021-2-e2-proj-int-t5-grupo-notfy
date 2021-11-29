@@ -14,7 +14,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-![Diagrama de Entidade Relaionamento](img/DER2.jpeg)
+![Diagrama de Entidade Relaionamento](img/DER1.png)
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
@@ -24,7 +24,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
  
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
- ![Esquema](img/DER1.png)
+ ![Esquema](img/DER2.jpeg)
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
