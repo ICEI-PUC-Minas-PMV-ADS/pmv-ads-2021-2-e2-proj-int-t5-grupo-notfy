@@ -1,0 +1,99 @@
+﻿@model Notfy.Models.Notificacao
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3>EXCLUIR NOTIFICAÇÃO</h3>
+
+<div class="body-detalhes">
+    <h4>Você tem certeza que deseja excluir?</h4>
+    <div>
+        <h4>Notificação</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.MatriculaImovel)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MatriculaImovel)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Sequencia)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Sequencia)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tentativa1)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tentativa1)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tentativa2)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tentativa2)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tentativa3)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tentativa3)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Concluido)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Concluido)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Observacao)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Observacao)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Notificador)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Notificador.Nome)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Notificando)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Notificando.Nome)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <p>
+                <a href='@Url.Action("Index", "Notificacaos")' class="fa fa-arrow-circle-left fa-2x" style="text-decoration: none;" title="Voltar"></a>
+                <button type="submit" class="btn btn-danger" style="text-decoration: none; margin-top: -15px;" title="Excluir notificacão">Excluir</button>
+            </p>
+        }
+    </div>
+</div>

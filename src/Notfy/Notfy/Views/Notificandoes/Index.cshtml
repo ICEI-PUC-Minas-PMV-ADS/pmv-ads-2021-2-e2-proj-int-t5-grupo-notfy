@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Notfy.Models.Notificando>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>NOTIFICANDOS</h3>
+
+<p>
+    <a href='@Url.Action("Create", "Notificandoes")' class="fa fa-plus-circle fa-3x" style="text-decoration: none" title="Incluir novo notificando"></a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CEP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CEP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            <a href='@Url.Action("Edit", "Notificandoes", new { id = item.ID })' class="fa fa-edit fa-2x" style="text-decoration: none" title="Editar notificando"></a>
+            <a href='@Url.Action("Details", "Notificandoes", new { id = item.ID })' class="fa fa-eye fa-2x" style="text-decoration: none; margin-left: 3px;" title="Visualizar notificando"></a>
+            <a href='@Url.Action("Delete", "Notificandoes", new { id = item.ID })' class="fa fa-trash fa-2x" style="text-decoration: none; margin-left: 3px;" title="Excluir notificando"></a>
+        </td>
+    </tr>
+}
+</table>
+
+<div>
+    <a href='@Url.Action("Index", "Notificacaos", new { tipoUsuario = "Administrador" })' class="fa fa-arrow-circle-left fa-3x" style="text-decoration: none" title="Voltar"></a>
+</div>

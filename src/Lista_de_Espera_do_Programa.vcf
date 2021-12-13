@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION;TYPE=WORK:3.0
+FN;CHARSET=UTF-8:Priscila Alves Rodrigues de Lima
+N;CHARSET=UTF-8:Priscila Alves Rodrigues de Lima;;;;
+PROFILE:VCARD
+ADR;CHARSET=UTF-8:;;Rua Nossa Senhora De Fatima\, 310 51,Centro;Osasco;Sp;0
+ 6086-000;Brazil
+EMAIL:iam@juliodelima.com.br
+ORG;CHARSET=UTF-8:Julio de Lima Cursos de Teste de Software
+URL:http://www.juliodelima.com.br
+END:VCARD

@@ -1,0 +1,398 @@
+﻿@model IEnumerable<Notfy.Models.Notificacao>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>NOTIFICAÇÕES</h3>
+
+<div id="msg"></div>
+
+<p>
+    @Html.ActionLink("Incluir nova notificação", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MatriculaImovel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sequencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tentativa1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tentativa2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tentativa3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Concluido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Observacao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notificador.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notificando.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatriculaImovel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sequencia)
+            </td>
+            <td class="text-center">
+                <input type="text" id="dataPrimeiraTentativa_@item.ID" value=@item.Tentativa1 class="form-control text-center" />
+                <button class="btn btn-primary" id="btn_tentativa1_@item.ID" onclick="return RegistrarTentativa('@item.ID','@item.NotificadorID','@item.NotificandoID','tentativa1','@item.MatriculaImovel','@item.Sequencia','@item.Tentativa1','@item.Tentativa2','@item.Tentativa3','@item.Concluido','@item.Observacao')"><i class="glyphicon glyphicon-edit"></i></button>
+            </td>
+            <td class="text-center">
+                <input type="text" id="dataSegundaTentativa_@item.ID" value=@item.Tentativa2 class="form-control text-center" />
+                <button class="btn btn-primary" id="btn_tentativa2_@item.ID" onclick="return RegistrarTentativa('@item.ID','@item.NotificadorID','@item.NotificandoID','tentativa2','@item.MatriculaImovel','@item.Sequencia','@item.Tentativa1','@item.Tentativa2','@item.Tentativa3','@item.Concluido','@item.Observacao')"><i class="glyphicon glyphicon-edit"></i></button>
+            </td>
+            <td class="text-center">
+                <input type="text" id="dataTerceiraTentativa_@item.ID" value=@item.Tentativa3 class="form-control text-center" />
+                <button class="btn btn-primary" id="btn_tentativa3_@item.ID" onclick="return RegistrarTentativa('@item.ID','@item.NotificadorID','@item.NotificandoID','tentativa3','@item.MatriculaImovel','@item.Sequencia','@item.Tentativa1','@item.Tentativa2','@item.Tentativa3','@item.Concluido','@item.Observacao')"><i class="glyphicon glyphicon-edit"></i></button>
+            </td>
+            <td>
+                <input type="text" id="txt_concluido_@item.ID" value="@(item.Concluido == 1 ? "Sim" : item.Concluido == 2 ? "Não" : "Não Definido")" class="form-control text-center" />
+                <select class="form-control" value="@item.Concluido" id="sel_Concluido_@item.ID" onchange="return DefinirConcluido('@item.ID','@item.NotificadorID','@item.NotificandoID','@item.MatriculaImovel','@item.Sequencia','@item.Tentativa1','@item.Tentativa2','@item.Tentativa3','@item.Concluido','@item.Observacao')">
+                    <option selected="selected">Selecione</option>
+                    <option value="0">Não Definido</option>
+                    <option value="1">Sim</option>
+                    <option value="2">Não</option>
+                </select>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notificador.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notificando.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Visualizar", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Excluir", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+</table>
+
+@section scripts{
+
+    @*Interface dos botões de tentativa*@
+    @foreach (var item in Model)
+    {
+        var idNotificacao = item.ID;
+
+        if (item.Tentativa1 != null)
+        {
+            <script>
+                $("#btn_tentativa1_" + @idNotificacao).hide();
+                $("#btn_tentativa2_" + @idNotificacao).attr("disabled", false);
+                $("#btn_tentativa3_" + @idNotificacao).attr("disabled", true);
+
+                $("#dataPrimeiraTentativa_" + @idNotificacao).attr("disabled", true);
+                $("#dataSegundaTentativa_" + @idNotificacao).hide();
+                $("#dataTerceiraTentativa_" + @idNotificacao).hide();
+            </script>
+        }
+        else
+        {
+            <script>
+                $("#btn_tentativa1_" + @idNotificacao).show();
+                $("#btn_tentativa2_" + @idNotificacao).attr("disabled", true);
+                $("#btn_tentativa3_" + @idNotificacao).attr("disabled", true);
+
+                $("#dataPrimeiraTentativa_" + @idNotificacao).hide();
+                $("#dataSegundaTentativa_" + @idNotificacao).hide();
+                $("#dataTerceiraTentativa_" + @idNotificacao).hide();
+            </script>
+        }
+
+        if (item.Tentativa2 != null)
+        {
+            <script>
+                $("#btn_tentativa2_" +  @idNotificacao).hide();
+                $("#btn_tentativa1_" +  @idNotificacao).attr("disabled", true);
+                $("#btn_tentativa3_" +  @idNotificacao).attr("disabled", false);
+
+                $("#dataSegundaTentativa_" +  @idNotificacao).attr("disabled", true);
+                $("#dataSegundaTentativa_" +  @idNotificacao).show();
+                $("#dataTerceiraTentativa_" +  @idNotificacao).hide();
+            </script>
+        }
+        else
+        {
+            <script>
+                $("#btn_tentativa3_" + @idNotificacao).show();
+                $("#btn_tentativa3_" + @idNotificacao).attr("disabled", true);
+            </script>
+        }
+
+        if (item.Tentativa3 != null)
+        {
+            <script>
+                $("#btn_tentativa3_" + @idNotificacao).hide();
+                $("#btn_tentativa2_" + @idNotificacao).attr("disabled", true);
+                $("#btn_tentativa3_" + @idNotificacao).attr("disabled", true);
+                $("#dataTerceiraTentativa_" + @idNotificacao).show();
+                $("#dataTerceiraTentativa_" + @idNotificacao).attr("disabled", true)
+            </script>
+        }
+        else
+        {
+            <script>
+                $("#btn_tentativa3_" + @idNotificacao).show();
+            </script>
+        }
+
+        <script>
+            $("#txt_concluido_" + @idNotificacao).hide();
+        </script>
+
+        if (item.Concluido != null)
+        {
+            <script>
+                $("#sel_Concluido_" + @idNotificacao).hide();
+                $("#txt_concluido_" + @idNotificacao).show();
+                $("#txt_concluido_" + @idNotificacao).attr("disabled", true);
+                $("#txt_concluido_" + @idNotificacao).attr("title", "Entre em contato com o administrador para efetuar qualquer alteração!");
+
+                $("#btn_tentativa1_" + @idNotificacao).attr("disabled", true);
+                $("#btn_tentativa2_" + @idNotificacao).attr("disabled", true);
+                $("#btn_tentativa3_" + @idNotificacao).attr("disabled", true);
+            </script>
+        }
+    }
+
+    <script>
+        function RegistrarTentativa(idNotificacao, idNotificador, idNotificando, numTentativa, matriculaImovel, sequencia, tentativa1, tentativa2, tentativa3, concluido, observacao) {
+
+            if (tentativa1 != null && $("#dataTentativa2").val() < tentativa1) {
+                alert("A data da tentativa não pode ser menor que a data anterior!");
+                return
+            }
+
+            switch (numTentativa) {
+
+                case "tentativa1": {
+                    $("#modalTentativa1").modal("show");
+
+                    $("#btn_registrarTentativa1").click(function () {
+
+                        var confirmacao = confirm("Tem certeza que deseja registrar a tentativa?");
+                        if (confirmacao == true) {
+
+                            var url = "Notificacaos/Edit/" + idNotificacao;
+                            var dataTentativa1 = $("#dataTentativa1").val();
+
+                            $.ajax({
+                                url: url,
+                                datatype: 'json',
+                                contentType: 'application/json;charset=utf-8',
+                                type: 'POST',
+                                data: JSON.stringify({
+                                    ID: idNotificacao, NotificandoID: idNotificando, NotificadorID: idNotificador, Tentativa1: dataTentativa1, MatriculaImovel: matriculaImovel, Sequencia: sequencia, Tentativa2: tentativa2, Tentativa3: tentativa3, Concluido: concluido, Observacao: observacao
+                                }),
+                                success: function (data) {
+                                    alert("Tentativa registrada com sucesso!")
+                                    window.location.href = '/Notificacaos';
+                                },
+                                error: function (error) {
+                                    $('#alerta').html(error);
+                                }
+                            });
+                        }
+                    });
+                    break;
+                }
+
+                case "tentativa2": {
+                    $("#modalTentativa2").modal("show");
+
+                    $("#btn_registrarTentativa2").click(function () {
+
+                        var confirmacao = confirm("Tem certeza que deseja registrar a tentativa?");
+                        if (confirmacao == true) {
+
+                            var url = "Notificacaos/Edit/" + idNotificacao;
+                            var dataTentativa2 = $("#dataTentativa2").val();
+
+                            $.ajax({
+                                url: url,
+                                datatype: 'json',
+                                contentType: 'application/json;charset=utf-8',
+                                type: 'POST',
+                                data: JSON.stringify({
+                                    ID: idNotificacao, NotificandoID: idNotificando, NotificadorID: idNotificador, Tentativa1: tentativa1, MatriculaImovel: matriculaImovel, Sequencia: sequencia, Tentativa2: dataTentativa2, Tentativa3: tentativa3, Concluido: concluido, Observacao: observacao
+                                }),
+                                success: function (data) {
+                                    alert("Tentativa registrada com sucesso!")
+                                    window.location.href = '/Notificacaos';
+                                },
+                                error: function (error) {
+                                    $('#alerta').html(error);
+                                }
+                            });
+                        }
+                    });
+                    break;
+                }
+
+                case "tentativa3": {
+                    $("#modalTentativa3").modal("show");
+
+                    $("#btn_registrarTentativa3").click(function () {
+
+                        var confirmacao = confirm("Tem certeza que deseja registrar a tentativa?");
+                        if (confirmacao == true) {
+
+                            var url = "Notificacaos/Edit/" + idNotificacao;
+                            var dataTentativa3 = $("#dataTentativa3").val();
+
+                            $.ajax({
+                                url: url,
+                                datatype: 'json',
+                                contentType: 'application/json;charset=utf-8',
+                                type: 'POST',
+                                data: JSON.stringify({
+                                    ID: idNotificacao, NotificandoID: idNotificando, NotificadorID: idNotificador, Tentativa1: tentativa1, MatriculaImovel: matriculaImovel, Sequencia: sequencia, Tentativa2: tentativa2, Tentativa3: dataTentativa3, Concluido: concluido, Observacao: observacao
+                                }),
+                                success: function (data) {
+                                    alert("Tentativa registrada com sucesso!")
+                                    window.location.href = '/Notificacaos';
+                                },
+                                error: function (error) {
+                                    $('#alerta').html(error);
+                                }
+                            });
+                        }
+                    });
+                    break;
+                }
+                default:
+
+            }
+        }
+
+        function DefinirConcluido(idNotificacao, idNotificador, idNotificando, matriculaImovel, sequencia, tentativa1, tentativa2, tentativa3, concluidoBase, observacao) {
+
+            if (tentativa1 == null || tentativa1 == "") {
+                alert("Não é possível concluir o processo sem antes registrar uma tentativa!");
+                window.location.href = '/Notificacaos';
+                return
+            }
+
+            var confirmacao = confirm("Tem certeza que deseja alterar o status da notificação?");
+            if (confirmacao == true) {
+
+                var url = "Notificacaos/Edit/" + idNotificacao;
+                var concluido = $("#sel_Concluido_" + idNotificacao).val();
+
+                $.ajax({
+                    url: url,
+                    datatype: 'json',
+                    contentType: 'application/json;charset=utf-8',
+                    type: 'POST',
+                    data: JSON.stringify({
+                        ID: idNotificacao, NotificandoID: idNotificando, NotificadorID: idNotificador, Tentativa1: tentativa1, MatriculaImovel: matriculaImovel, Sequencia: sequencia, Tentativa2: tentativa2, Tentativa3: tentativa3, Concluido: concluido, Observacao: observacao
+                    }),
+                    success: function (data) {
+                        alert("Status da notificação alterado com sucesso!")
+                        window.location.href = '/Notificacaos';
+                    },
+                    error: function (error) {
+                        $('#alerta').html(error);
+                    }
+                });
+            } else {
+                window.location.href = '/Notificacaos';
+            }
+        }
+
+        function FecharModal() {
+            window.location.href = '/Notificacaos';
+        }
+    </script>
+}
+
+<div class="container">
+    <div class="modal fade" id="modalTentativa1" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Registrar Primeira Tentativa</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <input type="date" id="dataTentativa1" />
+                    </div>
+                    <div class="row" style="margin-top: 10%">
+                        <button type="button" class="btn btn-primary" id="btn_registrarTentativa1">Salvar</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="FecharModal()">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTentativa2" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Registrar Segunda Tentativa</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <input type="date" id="dataTentativa2" />
+                    </div>
+                    <div class="row" style="margin-top: 10%">
+                        <button type="button" class="btn btn-primary" id="btn_registrarTentativa2">Salvar</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="FecharModal()">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTentativa3" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Registrar Terceira Tentativa</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <input type="date" id="dataTentativa3" />
+                    </div>
+                    <div class="row" style="margin-top: 10%">
+                        <button type="button" class="btn btn-primary" id="btn_registrarTentativa3">Salvar</button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="FecharModal()">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

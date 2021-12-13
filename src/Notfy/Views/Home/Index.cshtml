@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Notfy.Models.Notificador>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="login-page">
+    <div class="form">
+        <form class="login-form">
+            <input type="text" id="txt_usuario" placeholder="Digite seu usuário" />
+            <input type="password" id="txt_senha" placeholder="Digite sua senha" />
+            <button type="button" class="btn btn-primary" id="btn_entrar" onclick="return VerificarLogin()">ENTRAR</button>
+            <p class="message">Ainda não é cadastrado? <a href='@Url.Action("Create", "Notificadors")'>Cadastre-se</a></p>
+        </form>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        function VerificarLogin() {
+
+            var url = "/Notificadors/VerificarLogin";
+            var usuario = $("#txt_usuario").val();
+            var senha = $("#txt_senha").val();
+
+            $.ajax({
+                url: url,
+                datatype: 'json',
+                contentType: 'application/json;charset=utf-8',
+                type: 'POST',
+                data: JSON.stringify({
+                    Usuario: usuario, Senha: senha
+                }),
+                success: function (data) {
+                    if (data.sucesso) {
+                        alert("Bem vindo " + data.nomeNotificador + "!");
+                        var tipo = data.tipoUsuario == false ? "Comum" : "Administrador"
+                        window.location.href = '/Notificacaos?tipoUsuario=' + tipo;
+                    } else {
+                        alert("Usuário e/ou senha inexistentes!")
+                        return false;
+                    }
+                },
+                error: function (error) {
+                    alert(data)
+                    window.location.href = '/Index';
+                }
+            });
+            
+        }
+    </script>
+}
+

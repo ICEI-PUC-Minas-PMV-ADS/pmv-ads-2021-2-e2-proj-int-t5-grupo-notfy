@@ -1,0 +1,52 @@
+﻿@model Notfy.Models.Notificador
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h3>DETALHES</h3>
+
+<div class="body-detalhes">
+    <h4>Notificador</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    <p>
+        <a href='@Url.Action("Index", "Notificadors")' class="fa fa-arrow-circle-left fa-2x" style="text-decoration: none; margin-left: 3px;" title="Voltar"></a>
+        <a href='@Url.Action("Edit", "Notificadors", new { id = Model.ID })' class="fa fa-edit fa-2x" style="text-decoration: none" title="Editar notificador"></a>
+    </p>
+</div>
+

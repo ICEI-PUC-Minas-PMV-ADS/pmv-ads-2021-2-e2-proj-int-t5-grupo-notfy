@@ -1,0 +1,91 @@
+﻿@model Notfy.Models.Notificacao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h3>DETALHES</h3>
+
+<div class="body-detalhes">
+    <h4>Notificação</h4>
+    <hr />
+    <dl class="dl-horizontal" >
+        <dt>
+            @Html.DisplayNameFor(model => model.MatriculaImovel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MatriculaImovel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sequencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sequencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Concluido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Concluido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observacao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notificador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notificador.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notificando)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notificando.Nome)
+        </dd>
+    </dl>
+
+    <p>
+        <a href='@Url.Action("Index", "Notificacaos")' class="fa fa-arrow-circle-left fa-2x" style="text-decoration: none; margin-left: 3px;" title="Voltar"></a>
+        <a href='@Url.Action("Edit", "Notificacaos", new { id = Model.ID })' class="fa fa-edit fa-2x" style="text-decoration: none" title="Editar notificacão"></a>
+    </p>
+
+</div>
