@@ -1,0 +1,450 @@
+C:\Users\User\Desktop\Notfy\bin\Notfy.dll.config
+C:\Users\User\Desktop\Notfy\bin\Notfy.dll
+C:\Users\User\Desktop\Notfy\bin\Notfy.pdb
+C:\Users\User\Desktop\Notfy\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Notfy\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\Notfy\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\Notfy\bin\roslyn\csi.exe
+C:\Users\User\Desktop\Notfy\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\Notfy\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Notfy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\Notfy\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Notfy\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\Notfy\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\Notfy\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Notfy\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Notfy\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\Notfy\bin\EntityFramework.dll
+C:\Users\User\Desktop\Notfy\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Notfy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Notfy\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\Notfy\bin\WebGrease.dll
+C:\Users\User\Desktop\Notfy\bin\EntityFramework.xml
+C:\Users\User\Desktop\Notfy\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\Notfy\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\Notfy\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Notfy\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\Notfy\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\Notfy\obj\Debug\Notfy.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Notfy\obj\Debug\Notfy.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Notfy\obj\Debug\Notfy.csproj.CopyComplete
+C:\Users\User\Desktop\Notfy\obj\Debug\Notfy.dll
+C:\Users\User\Desktop\Notfy\obj\Debug\Notfy.pdb
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Notfy.dll.config
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Notfy.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Notfy.pdb
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csc.exe
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csi.exe
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\EntityFramework.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\WebGrease.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\EntityFramework.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\obj\Debug\Notfy.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ESTUDO\Notfy\obj\Debug\Notfy.csproj.CopyComplete
+C:\Users\User\Desktop\ESTUDO\Notfy\obj\Debug\Notfy.dll
+C:\Users\User\Desktop\ESTUDO\Notfy\obj\Debug\Notfy.pdb
+C:\Users\User\Desktop\ESTUDO\Notfy\obj\Debug\Notfy.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Notfy.dll.config
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Notfy.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Notfy.pdb
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csc.exe
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csi.exe
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\EntityFramework.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\WebGrease.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\EntityFramework.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CopyComplete
+C:\Users\User\Desktop\NOTFY_Final\Notfy\obj\Debug\Notfy.dll
+C:\Users\User\Desktop\NOTFY_Final\Notfy\obj\Debug\Notfy.pdb
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Notfy.dll.config
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Notfy.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Notfy.pdb
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csc.exe
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csc.exe.config
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csc.rsp
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csi.exe
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csi.exe.config
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\csi.rsp
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.AppContext.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Collections.Immutable.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Console.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Net.Http.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Net.Sockets.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.ValueTuple.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\vbc.exe
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\vbc.exe.config
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\vbc.rsp
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe.config
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Antlr3.Runtime.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\EntityFramework.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Microsoft.Web.Infrastructure.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Newtonsoft.Json.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Helpers.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Mvc.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Optimization.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Razor.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\WebGrease.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\EntityFramework.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Helpers.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Mvc.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Optimization.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.Razor.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Newtonsoft.Json.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Antlr3.Runtime.pdb
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.Razor.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.AssemblyReference.cache
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CoreCompileInputs.cache
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CopyComplete
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\obj\Debug\Notfy.dll
+C:\Docs Luiza\PUC\NOTFY_Final\Notfy\obj\Debug\Notfy.pdb
+C:\NOTFY\NOTFY_Final\Notfy\bin\Notfy.dll.config
+C:\NOTFY\NOTFY_Final\Notfy\bin\Notfy.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\Notfy.pdb
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csc.exe
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csc.exe.config
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csc.rsp
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csi.exe
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csi.exe.config
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\csi.rsp
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.AppContext.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Collections.Immutable.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Console.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Globalization.Calendars.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Net.Http.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Net.Sockets.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Reflection.Metadata.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.ValueTuple.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\vbc.exe
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\vbc.exe.config
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\vbc.rsp
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe
+C:\NOTFY\NOTFY_Final\Notfy\bin\roslyn\VBCSCompiler.exe.config
+C:\NOTFY\NOTFY_Final\Notfy\bin\Antlr3.Runtime.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\EntityFramework.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\Microsoft.Web.Infrastructure.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\Newtonsoft.Json.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Helpers.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Mvc.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Optimization.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Razor.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\WebGrease.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\EntityFramework.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\EntityFramework.SqlServer.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Helpers.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Mvc.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Optimization.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.Razor.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.Deployment.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\System.Web.WebPages.Razor.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\Newtonsoft.Json.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\Antlr3.Runtime.pdb
+C:\NOTFY\NOTFY_Final\Notfy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.Helpers.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.Mvc.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.Optimization.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.Razor.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\NOTFY\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.AssemblyReference.cache
+C:\NOTFY\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CoreCompileInputs.cache
+C:\NOTFY\NOTFY_Final\Notfy\obj\Debug\Notfy.csproj.CopyComplete
+C:\NOTFY\NOTFY_Final\Notfy\obj\Debug\Notfy.dll
+C:\NOTFY\NOTFY_Final\Notfy\obj\Debug\Notfy.pdb

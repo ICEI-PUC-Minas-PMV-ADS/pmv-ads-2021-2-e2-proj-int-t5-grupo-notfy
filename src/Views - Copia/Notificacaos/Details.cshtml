@@ -1,0 +1,90 @@
+﻿@model Notfy.Models.Notificacao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h3>DETALHES</h3>
+
+<div>
+    <h4>Notificação</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MatriculaImovel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MatriculaImovel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sequencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sequencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tentativa3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tentativa3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Concluido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Concluido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observacao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notificador.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notificador.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notificando.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notificando.Nome)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

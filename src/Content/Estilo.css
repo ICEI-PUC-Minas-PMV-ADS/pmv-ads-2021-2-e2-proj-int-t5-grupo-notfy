@@ -1,0 +1,118 @@
+﻿body {
+    background-color: #E3F2F2;
+}
+
+table {
+    border-radius: 15px;
+    text-align: center;
+}
+   
+    table th {
+        background-color: #2e6da4;
+        color: white;
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+    }
+
+h3 {
+    font-size: 26px;
+    color: #2e6da4;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    text-shadow: 2px 2px 3px #2e6da4;
+}
+
+h4 {
+    font-size: 24px;
+    color: #2e6da4;
+    font-family: 'Arial Rounded MT';
+}
+
+.body-form {
+    width: 500px;
+    height: 100%;
+    left: 50%;
+    margin: -140px 0 0 -210px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+}
+
+.body-detalhes {
+    font-size: 18px;
+    width: 500px;
+    height: 100%;
+    left: 50%;
+    margin: -130px 0 0 -210px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    text-align: left;
+}
+
+.login-page {
+    width: 360px;
+    padding: 11% 0 0;
+    margin-left: 33%;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 2px auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+    .form input {
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .form button {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+
+    .form .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+    }
+
+        .form .message a {
+            color: #3B5998;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+    .form .register-form {
+        display: none;
+    }
+
+.nav-logo {
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: Verdana;
+    text-shadow: 2px 2px 2px #b3b3b3;
+}
+
